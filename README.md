@@ -1,1 +1,50 @@
 # Publications
+
+## Reports
+
+### Consensus Protocols Formal Verification
+
+| Name | Report | Artifact | Year |
+| ---- | ------ | -------- | ---- |
+| Algorand | [PDF](reports/consensus-protocols/Algorand.pdf) | [GitHub](https://github.com/runtimeverification/algorand-verification) | 2019 |
+| Ethereum CBC Casper | [PDF](reports/consensus-protocols/CBC-Casper.pdf) | [GitHub](https://github.com/runtimeverification/casper-cbc-proofs) | 2019-Present |
+| Ethereum Beacon Chain Phase 0 | [PDF](reports/consensus-protocols/Ethereum-BeaconChain.pdf) | [GitHub](https://github.com/runtimeverification/beacon-chain-spec) | 2019 |
+| Ethereum Casper FFG | [PDF](reports/consensus-protocols/Ethereum-Casper.pdf) | [GitHub](https://github.com/runtimeverification/casper-proofs) | 2018 |
+| Ethereum Gasper (GHOST + Casper) | [PDF](reports/consensus-protocols/Ethereum-Gasper.pdf) | [GitHub](https://github.com/runtimeverification/beacon-chain-verification) | 2020 |
+| PlatON Giskard | [PDF](reports/consensus-protocols/PlatON-Giskard.pdf) | [GitHub](https://github.com/runtimeverification/giskard-verification) | 2020 |
+
+### Smart Contracts Security Audit and Formal Verification
+
+| Name | Report | Artifact | Year |
+| ---- | ------ | -------- | ---- |
+| Bihu | [PDF](reports/smart-contracts/Bihu.pdf) | [GitHub](https://github.com/runtimeverification/verified-smart-contracts/tree/master/bihu) | 2018 |
+| ERC20 Tokens | | [Github](https://github.com/runtimeverification/verified-smart-contracts/tree/master/erc20) | 2017-2018 |
+| Ethereum Casper (Deprecated) | | [GitHub](https://github.com/runtimeverification/verified-smart-contracts/tree/master/casper) | 2018 |
+| Ethereum Deposit | [PDF](reports/smart-contracts/Ethereum-Deposit.pdf) | [GitHub](https://github.com/runtimeverification/deposit-contract-verification) | 2019-2020 |
+| GnosisSafe | [PDF](reports/smart-contracts/GnosisSafe.pdf) | [GitHub](https://github.com/runtimeverification/verified-smart-contracts/tree/master/gnosis) | 2019 |
+| Polkadot Module | | [GitHub](https://github.com/runtimeverification/polkadot-verification) | 2019-2020 |
+| Stakefish BatchDeposit | [PDF](reports/smart-contracts/Stakefish-BatchDeposit.pdf) | | 2020 |
+| Uniswap V1 | [PDF](reports/smart-contracts/Uniswap-V1.pdf) | [GitHub](https://github.com/runtimeverification/verified-smart-contracts/tree/master/uniswap) | 2018 |
+
+## Formal Models and Language Semantics
+
+### Virtual Machines
+
+| Name | Report | Artifact | Year |
+| ---- | ------ | -------- | ---- |
+| Elrond WASM | | [GitHub](https://github.com/runtimeverification/elrond-semantics) | 2020-Present |
+| EVM | [CSF'2018](https://daejunpark.github.io/kevm.pdf) | [GitHub](https://github.com/kframework/evm-semantics) | 2016-Present |
+| IELE | [FM'2019](http://fsl.cs.illinois.edu/FSL/papers/2019/kasampalis-guth-moore-serbanuta-zhang-filaretti-serbanuta-johnson-rosu-2019-fm/kasampalis-guth-moore-serbanuta-zhang-filaretti-serbanuta-johnson-rosu-2019-fm-public.pdf) | [GitHub](https://github.com/runtimeverification/iele-semantics) | 2016-Present |
+
+### Smart Contract Languages
+
+| Name | Report | Artifact | Year |
+| ---- | ------ | -------- | ---- |
+| Tezos Michelson | | [GitHub](https://github.com/runtimeverification/michelson-semantics) | 2019-Present |
+
+### Standard Specifications
+
+| Name | Report | Artifact | Year |
+| ---- | ------ | -------- | ---- |
+| ERC20 | | [GitHub](https://github.com/runtimeverification/erc20-semantics) | 2017 |
+| ERC777 | | [GitHub](https://github.com/runtimeverification/erc777-semantics) | 2018 |
