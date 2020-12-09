@@ -11,6 +11,7 @@
 | Ethereum Beacon Chain Phase 0 | [PDF](reports/consensus-protocols/Ethereum-BeaconChain.pdf) | [GitHub](https://github.com/runtimeverification/beacon-chain-spec) | 2019 |
 | Ethereum Casper FFG | [PDF](reports/consensus-protocols/Ethereum-Casper.pdf) | [GitHub](https://github.com/runtimeverification/casper-proofs) | 2018 |
 | Ethereum Gasper (GHOST + Casper) | [PDF](reports/consensus-protocols/Ethereum-Gasper.pdf) | [GitHub](https://github.com/runtimeverification/beacon-chain-verification) | 2020 |
+| Ethereum Weak Subjectivity | [PDF](https://github.com/runtimeverification/beacon-chain-verification/blob/master/weak-subjectivity/weak-subjectivity-analysis.pdf) |  | 2020 |
 | PlatON Giskard | [PDF](reports/consensus-protocols/PlatON-Giskard.pdf) | [GitHub](https://github.com/runtimeverification/giskard-verification) | 2020 |
 
 ### Smart Contracts Security Audit and Formal Verification
