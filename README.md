@@ -25,6 +25,7 @@
 | GnosisSafe | [PDF](reports/smart-contracts/GnosisSafe.pdf) | [GitHub](https://github.com/runtimeverification/verified-smart-contracts/tree/master/gnosis) | 2019 |
 | Polkadot Module | | [GitHub](https://github.com/runtimeverification/polkadot-verification) | 2019-2020 |
 | Stakefish BatchDeposit | [PDF](reports/smart-contracts/Stakefish-BatchDeposit.pdf) | | 2020 |
+| StakerDAO | [PDF](reports/smart-contracts/StakerDAO.pdf) | | 2021 |
 | StakeWise | [PDF](reports/smart-contracts/StakeWise.pdf) | | 2020 |
 | Uniswap V1 | [PDF](reports/smart-contracts/Uniswap-V1.pdf) | [GitHub](https://github.com/runtimeverification/verified-smart-contracts/tree/master/uniswap) | 2018 |
 
