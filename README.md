@@ -20,6 +20,7 @@
 | ---- | ------ | -------- | ---- |
 | Bihu | [PDF](reports/smart-contracts/Bihu.pdf) | [GitHub](https://github.com/runtimeverification/verified-smart-contracts/tree/master/bihu) | 2018 |
 | ERC20 Tokens | | [Github](https://github.com/runtimeverification/verified-smart-contracts/tree/master/erc20) | 2017-2018 |
+| Element Finance | [PDF](reports/smart-contracts/ElementFinance.pdf) | | 2021 |
 | Ethereum Casper (Deprecated) | | [GitHub](https://github.com/runtimeverification/verified-smart-contracts/tree/master/casper) | 2018 |
 | Ethereum Deposit | [PDF](reports/smart-contracts/Ethereum-Deposit.pdf) | [GitHub](https://github.com/runtimeverification/deposit-contract-verification) | 2019-2020 |
 | GnosisSafe | [PDF](reports/smart-contracts/GnosisSafe.pdf) | [GitHub](https://github.com/runtimeverification/verified-smart-contracts/tree/master/gnosis) | 2019 |
