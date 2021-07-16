@@ -18,6 +18,7 @@
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
+| Tezos Dexter | [PDF](reports/smart-contracts/Tezos-Dexter.pdf) | [GitHub](https://github.com/runtimeverification/michelson-semantics/tree/master/tests/proofs/dexter) | 2021 |
 | Element Finance | [PDF](reports/smart-contracts/ElementFinance.pdf) | | 2021 |
 | StakerDAO | [PDF](reports/smart-contracts/StakerDAO.pdf) | | 2021 |
 | StakeWise | [PDF](reports/smart-contracts/StakeWise.pdf) | | 2020 |
