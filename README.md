@@ -18,6 +18,7 @@
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
+| Tinyman | [PDF](reports/smart-contracts/Tinyman.pdf) | | 2021 |
 | Tezos Liquidity Baking | [PDF](reports/smart-contracts/Tezos-Dexter-Liquidity-Baking.pdf) | [GitHub](https://github.com/runtimeverification/michelson-semantics/tree/master/tests/proofs/liquidity-baking) | 2021 |
 | XET Script | [PDF](reports/smart-contracts/XET-script.pdf) | | 2021 |
 | Tezos Dexter | [PDF](reports/smart-contracts/Tezos-Dexter.pdf) | [GitHub](https://github.com/runtimeverification/michelson-semantics/tree/master/tests/proofs/dexter) | 2021 |
