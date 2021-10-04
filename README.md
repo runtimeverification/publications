@@ -18,6 +18,7 @@
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
+| Algorand Governance Rewards | [PDF](reports/smart-contracts/Algorand_Governance_Rewards_audit_report.pdf) | | 2021 |
 | Tinyman | [PDF](reports/smart-contracts/Tinyman.pdf) | | 2021 |
 | Tezos Liquidity Baking | [PDF](reports/smart-contracts/Tezos-Dexter-Liquidity-Baking.pdf) | [GitHub](https://github.com/runtimeverification/michelson-semantics/tree/master/tests/proofs/liquidity-baking) | 2021 |
 | XET Script | [PDF](reports/smart-contracts/XET-script.pdf) | | 2021 |
