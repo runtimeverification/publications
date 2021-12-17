@@ -18,6 +18,8 @@
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
+| Algofi | [PDF](reports/smart-contracts/Algofi.pdf) | | 2021 |
+| Yieldly Multi-Token Staking Pool | [PDF](reports/smart-contracts/yieldly-multi-pool-audit-report.pdf) | | 2021 |
 | Element Finance Governance | [PDF](reports/smart-contracts/Element_Finance_Governance_Security_Audit_Report.pdf) | | 2021 |
 | Algorand Governance Rewards | [PDF](reports/smart-contracts/Algorand_Governance_Rewards_audit_report.pdf) | | 2021 |
 | Tinyman | [PDF](reports/smart-contracts/Tinyman.pdf) | | 2021 |
