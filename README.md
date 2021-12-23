@@ -18,7 +18,7 @@
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
-| Algodex | [PDF 1](reports/smart-contracts/Algodex_Sep.pdf) [PDF 2](reports/smart-contracts/Algodex_Dec.pdf)| | 2021 |
+| Algodex | [PDF](reports/smart-contracts/Algodex_Dec.pdf)| | 2021 |
 | Algofi | [PDF](reports/smart-contracts/Algofi.pdf) | | 2021 |
 | Yieldly Multi-Token Staking Pool | [PDF](reports/smart-contracts/yieldly-multi-pool-audit-report.pdf) | | 2021 |
 | Element Finance Governance | [PDF](reports/smart-contracts/Element_Finance_Governance_Security_Audit_Report.pdf) | | 2021 |
