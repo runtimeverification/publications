@@ -18,6 +18,7 @@
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
+| SundaeSwap | [PDF](reports/smart-contracts/SundaeSwap.pdf) | | 2022 |
 | Tinyman (Security Review) | [PDF](reports/smart-contracts/Tinyman-security-review.pdf) | | 2022 |
 | Stakefish Ethereum Staking 2.0 | [PDF](reports/smart-contracts/stakefish-ethereum-staking-audit-report.pdf) | | 2021 |
 | Algodex | [PDF](reports/smart-contracts/Algodex_Dec.pdf)| | 2021 |
