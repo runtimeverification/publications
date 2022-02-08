@@ -18,6 +18,7 @@
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
+| Alchemix v2 | [PDF](reports/smart-contracts/Alchemix_v2.pdf) | | 2022 |
 | Pact.fi    | [PDF](reports/smart-contracts/Pact_Fi.pdf) | | 2022 |
 | SundaeSwap | [PDF](reports/smart-contracts/SundaeSwap.pdf) | | 2022 |
 | Tinyman (Security Review) | [PDF](reports/smart-contracts/Tinyman-security-review.pdf) | | 2022 |
