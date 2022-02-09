@@ -23,7 +23,8 @@
 | SundaeSwap | [PDF](reports/smart-contracts/SundaeSwap.pdf) | | 2022 |
 | Tinyman (Security Review) | [PDF](reports/smart-contracts/Tinyman-security-review.pdf) | | 2022 |
 | Stakefish Ethereum Staking 2.0 | [PDF](reports/smart-contracts/stakefish-ethereum-staking-audit-report.pdf) | | 2021 |
-| Algodex | [PDF](reports/smart-contracts/Algodex_Dec.pdf)| | 2021 |
+| Algodex (phase 2) | [PDF](reports/smart-contracts/Algodex_Dec.pdf)| | 2021 |
+| Algodex (phase 1) | [PDF](reports/smart-contracts/Algodex_Jan.pdf)| | 2021 |
 | Algofi | [PDF](reports/smart-contracts/Algofi.pdf) | | 2021 |
 | Yieldly Multi-Token Staking Pool | [PDF](reports/smart-contracts/yieldly-multi-pool-audit-report.pdf) | | 2021 |
 | Element Finance Governance | [PDF](reports/smart-contracts/Element_Finance_Governance_Security_Audit_Report.pdf) | | 2021 |
