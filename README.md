@@ -18,6 +18,8 @@
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
+| Folks Finance (Audit) | [PDF](reports/smart-contracts/Folks-Finance-Code-Audit.pdf) | | 2022 |
+| Folks Finance (Design) | [PDF](reports/smart-contracts/Folks-Finance-Design-Review.pdf) | | 2022 |
 | Alchemix v2 | [PDF](reports/smart-contracts/Alchemix_v2.pdf) | | 2022 |
 | Pact.fi    | [PDF](reports/smart-contracts/Pact_Fi.pdf) | | 2022 |
 | SundaeSwap | [PDF](reports/smart-contracts/SundaeSwap.pdf) | | 2022 |
