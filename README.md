@@ -18,6 +18,7 @@
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
+| Atlendis | [PDF](reports/smart-contracts/atlendis-audit-report.pdf)| | 2022 |
 | Folks Finance (Audit) | [PDF](reports/smart-contracts/Folks-Finance-Code-Audit.pdf) | | 2022 |
 | Folks Finance (Design) | [PDF](reports/smart-contracts/Folks-Finance-Design-Review.pdf) | | 2022 |
 | Alchemix v2 | [PDF](reports/smart-contracts/Alchemix_v2.pdf) | | 2022 |
