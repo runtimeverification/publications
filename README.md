@@ -27,6 +27,7 @@
 | Pact.fi    | [PDF](reports/smart-contracts/Pact_Fi.pdf) | | 2022 |
 | SundaeSwap | [PDF](reports/smart-contracts/SundaeSwap.pdf) | | 2022 |
 | Tinyman (Security Review) | [PDF](reports/smart-contracts/Tinyman-security-review.pdf) | | 2022 |
+| Tracer Perpetual Pools V2 | [PDF](reports/smart-contracts/Tracer-Perpetual-Pools-V2.pdf) | | 2021 | 
 | Quipuswap TTDex | [PDF](reports/smart-contracts/Quipuswap.pdf) | [GitHub](reports/smart-contracts/Quipuswap-analysis.md) | 2021 |
 | Stakefish Ethereum Staking 2.0 | [PDF](reports/smart-contracts/stakefish-ethereum-staking-audit-report.pdf) | | 2021 |
 | Algodex (phase 2) | [PDF](reports/smart-contracts/Algodex_Dec.pdf)| | 2021 |
