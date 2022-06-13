@@ -18,6 +18,7 @@
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
+| Hone | [PDF](reports/smart-contracts/hone-report.pdf)| | 2022 |
 | EXA Finance | [PDF](reports/smart-contracts/EXA_Finance.pdf)| | 2022 |
 | Blockswap Stakehouse | [PDF](reports/smart-contracts/Blockswap_Stakehouse.pdf)| | 2022 |
 | Algofi AMM & Nanoswap| [PDF](reports/smart-contracts/Algofi-dex-nanoswap.pdf)| | 2022 |
