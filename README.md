@@ -27,6 +27,7 @@
 | Folks Finance (Design) | [PDF](reports/smart-contracts/Folks-Finance-Design-Review.pdf) | | 2022 |
 | Alchemix v2 | [PDF](reports/smart-contracts/Alchemix_v2.pdf) | | 2022 |
 | Pact.fi    | [PDF](reports/smart-contracts/Pact_Fi.pdf) | | 2022 |
+| Pact.fi StableSwap | [PDF](reports/smart-contracts/Pact_Fi_StableSwap.pdf) | | 2022 |
 | SundaeSwap | [PDF](reports/smart-contracts/SundaeSwap.pdf) | | 2022 |
 | Tinyman (Security Review) | [PDF](reports/smart-contracts/Tinyman-security-review.pdf) | | 2022 |
 | Tracer Perpetual Pools V2 | [PDF](reports/smart-contracts/Tracer-Perpetual-Pools-V2.pdf) | | 2021 | 
