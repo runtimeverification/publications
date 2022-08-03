@@ -18,6 +18,7 @@
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
+| Blockswap Stakehouse, 2nd audit | [PDF](reports/smart-contracts/Blockswap_Stakehouse_2nd_Audit.pdf)| | 2022 |
 | Swaap Labs Pools | [PDF](reports/smart-contracts/swaap-audit-report.pdf) | | 2022 |
 | Quipuswap Stableswap | [PDF](reports/smart-contracts/quipuswap-stableswap.pdf) | | 2022 |
 | Hone | [PDF](reports/smart-contracts/hone-report.pdf)| | 2022 |
