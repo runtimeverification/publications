@@ -19,6 +19,7 @@
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
+| xBacked | [PDF](reports/smart-contracts/xBacked-audit-report.pdf) | | 2022 |
 | Jpg.Store | [PDF](reports/smart-contracts/Jpg.Store-audit-report.pdf) | | 2022 |
 | Pact.fi Router | [PDF](reports/smart-contracts/Pact_Fi_Router.pdf) | | 2022 |
 | Blockswap Stakehouse, 2nd audit | [PDF](reports/smart-contracts/Blockswap_Stakehouse_2nd_Audit.pdf)| | 2022 |
