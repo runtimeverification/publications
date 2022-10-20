@@ -19,6 +19,7 @@
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
+| HydraDX Omnipool | [PDF](reports/smart-contracts/HydraDX-Omnipool-AMM-Audit-Report.pdf) | | 2022 |
 | xBacked | [PDF](reports/smart-contracts/xBacked-audit-report.pdf) | | 2022 |
 | Jpg.Store | [PDF](reports/smart-contracts/Jpg.Store-audit-report.pdf) | | 2022 |
 | Pact.fi Router | [PDF](reports/smart-contracts/Pact_Fi_Router.pdf) | | 2022 |
