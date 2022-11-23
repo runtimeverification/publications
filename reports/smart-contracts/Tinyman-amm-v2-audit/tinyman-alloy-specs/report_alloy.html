@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Partial Alloy specification to include into the report</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="data:text/css,%0A%0A%0Aarticle%2C%0Aaside%2C%0Adetails%2C%0Afigcaption%2C%0Afigure%2C%0Afooter%2C%0Aheader%2C%0Ahgroup%2C%0Amain%2C%0Anav%2C%0Asection%2C%0Asummary%20%7B%0Adisplay%3A%20block%3B%0A%7D%0A%0Aaudio%2C%0Acanvas%2C%0Avideo%20%7B%0Adisplay%3A%20inline%2Dblock%3B%0A%7D%0A%0Aaudio%3Anot%28%5Bcontrols%5D%29%20%7B%0Adisplay%3A%20none%3B%0Aheight%3A%200%3B%0A%7D%0A%0A%5Bhidden%5D%2C%0Atemplate%20%7B%0Adisplay%3A%20none%3B%0A%7D%0A%0A%0Ahtml%20%7B%0Afont%2Dfamily%3A%20sans%2Dserif%3B%20%0A%2Dms%2Dtext%2Dsize%2Dadjust%3A%20100%25%3B%20%0A%2Dwebkit%2Dtext%2Dsize%2Dadjust%3A%20100%25%3B%20%0A%7D%0A%0Abody%20%7B%0Amargin%3A%200%3B%0A%7D%0A%0A%0Aa%20%7B%0Abackground%3A%20transparent%3B%0A%7D%0A%0Aa%3Afocus%20%7B%0Aoutline%3A%20thin%20dotted%3B%0A%7D%0A%0Aa%3Aactive%2C%0Aa%3Ahover%20%7B%0Aoutline%3A%200%3B%0A%7D%0A%0A%0Ah1%20%7B%0Afont%2Dsize%3A%202em%3B%0Amargin%3A%200%2E67em%200%3B%0A%7D%0A%0Aabbr%5Btitle%5D%20%7B%0Aborder%2Dbottom%3A%201px%20dotted%3B%0A%7D%0A%0Ab%2C%0Astrong%20%7B%0Afont%2Dweight%3A%20bold%3B%0A%7D%0A%0Adfn%20%7B%0Afont%2Dstyle%3A%20italic%3B%0A%7D%0A%0Ahr%20%7B%0A%2Dmoz%2Dbox%2Dsizing%3A%20content%2Dbox%3B%0Abox%2Dsizing%3A%20content%2Dbox%3B%0Aheight%3A%200%3B%0A%7D%0A%0Amark%20%7B%0Abackground%3A%20%23ff0%3B%0Acolor%3A%20%23000%3B%0A%7D%0A%0Acode%2C%0Akbd%2C%0Apre%2C%0Asamp%20%7B%0Afont%2Dfamily%3A%20monospace%2C%20serif%3B%0Afont%2Dsize%3A%201em%3B%0A%7D%0A%0Apre%20%7B%0Awhite%2Dspace%3A%20pre%2Dwrap%3B%0A%7D%0A%0Aq%20%7B%0Aquotes%3A%20%22%5C201C%22%20%22%5C201D%22%20%22%5C2018%22%20%22%5C2019%22%3B%0A%7D%0A%0Asmall%20%7B%0Afont%2Dsize%3A%2080%25%3B%0A%7D%0A%0Asub%2C%0Asup%20%7B%0Afont%2Dsize%3A%2075%25%3B%0Aline%2Dheight%3A%200%3B%0Aposition%3A%20relative%3B%0Avertical%2Dalign%3A%20baseline%3B%0A%7D%0Asup%20%7B%0Atop%3A%20%2D0%2E5em%3B%0A%7D%0Asub%20%7B%0Abottom%3A%20%2D0%2E25em%3B%0A%7D%0A%0A%0Aimg%20%7B%0Aborder%3A%200%3B%0A%7D%0A%0Asvg%3Anot%28%3Aroot%29%20%7B%0Aoverflow%3A%20hidden%3B%0A%7D%0A%0A%0Afigure%20%7B%0Amargin%3A%200%3B%0A%7D%0A%0A%0Afieldset%20%7B%0Aborder%3A%201px%20solid%20%23c0c0c0%3B%0Amargin%3A%200%202px%3B%0Apadding%3A%200%2E35em%200%2E625em%200%2E75em%3B%0A%7D%0A%0Alegend%20%7B%0Aborder%3A%200%3B%20%0Apadding%3A%200%3B%20%0A%7D%0A%0Abutton%2C%0Ainput%2C%0Aselect%2C%0Atextarea%20%7B%0Afont%2Dfamily%3A%20inherit%3B%20%0Afont%2Dsize%3A%20100%25%3B%20%0Amargin%3A%200%3B%20%0A%7D%0A%0Abutton%2C%0Ainput%20%7B%0Aline%2Dheight%3A%20normal%3B%0A%7D%0A%0Abutton%2C%0Aselect%20%7B%0Atext%2Dtransform%3A%20none%3B%0A%7D%0A%0Abutton%2C%0Ahtml%20input%5Btype%3D%22button%22%5D%2C%20%0Ainput%5Btype%3D%22reset%22%5D%2C%0Ainput%5Btype%3D%22submit%22%5D%20%7B%0A%2Dwebkit%2Dappearance%3A%20button%3B%20%0Acursor%3A%20pointer%3B%20%0A%7D%0A%0Abutton%5Bdisabled%5D%2C%0Ahtml%20input%5Bdisabled%5D%20%7B%0Acursor%3A%20default%3B%0A%7D%0A%0Ainput%5Btype%3D%22checkbox%22%5D%2C%0Ainput%5Btype%3D%22radio%22%5D%20%7B%0Abox%2Dsizing%3A%20border%2Dbox%3B%20%0Apadding%3A%200%3B%20%0A%7D%0A%0Ainput%5Btype%3D%22search%22%5D%20%7B%0A%2Dwebkit%2Dappearance%3A%20textfield%3B%20%0A%2Dmoz%2Dbox%2Dsizing%3A%20content%2Dbox%3B%0A%2Dwebkit%2Dbox%2Dsizing%3A%20content%2Dbox%3B%20%0Abox%2Dsizing%3A%20content%2Dbox%3B%0A%7D%0A%0Ainput%5Btype%3D%22search%22%5D%3A%3A%2Dwebkit%2Dsearch%2Dcancel%2Dbutton%2C%0Ainput%5Btype%3D%22search%22%5D%3A%3A%2Dwebkit%2Dsearch%2Ddecoration%20%7B%0A%2Dwebkit%2Dappearance%3A%20none%3B%0A%7D%0A%0Abutton%3A%3A%2Dmoz%2Dfocus%2Dinner%2C%0Ainput%3A%3A%2Dmoz%2Dfocus%2Dinner%20%7B%0Aborder%3A%200%3B%0Apadding%3A%200%3B%0A%7D%0A%0Atextarea%20%7B%0Aoverflow%3A%20auto%3B%20%0Avertical%2Dalign%3A%20top%3B%20%0A%7D%0A%0A%0Atable%20%7B%0Aborder%2Dcollapse%3A%20collapse%3B%0Aborder%2Dspacing%3A%200%3B%0A%7D%0A%2Ego%2Dtop%20%7B%0Aposition%3A%20fixed%3B%0Abottom%3A%202em%3B%0Aright%3A%202em%3B%0Atext%2Ddecoration%3A%20none%3B%0Abackground%2Dcolor%3A%20%23E0E0E0%3B%0Afont%2Dsize%3A%2012px%3B%0Apadding%3A%201em%3B%0Adisplay%3A%20inline%3B%0A%7D%0A%0Ahtml%2Cbody%7B%20margin%3A%20auto%3B%0Apadding%2Dright%3A%201em%3B%0Apadding%2Dleft%3A%201em%3B%0Amax%2Dwidth%3A%2044em%3B%20color%3Ablack%3B%7D%2A%3Anot%28%27%23mkdbuttons%27%29%7Bmargin%3A0%3Bpadding%3A0%7Dbody%7Bfont%3A13%2E34px%20helvetica%2Carial%2Cfreesans%2Cclean%2Csans%2Dserif%3B%2Dwebkit%2Dfont%2Dsmoothing%3Asubpixel%2Dantialiased%3Bline%2Dheight%3A1%2E4%3Bpadding%3A3px%3Bbackground%3A%23fff%3Bborder%2Dradius%3A3px%3B%2Dmoz%2Dborder%2Dradius%3A3px%3B%2Dwebkit%2Dborder%2Dradius%3A3px%7Dp%7Bmargin%3A1em%200%7Da%7Bcolor%3A%234183c4%3Btext%2Ddecoration%3Anone%7Dbody%7Bbackground%2Dcolor%3A%23fff%3Bpadding%3A30px%3Bmargin%3A15px%3Bfont%2Dsize%3A14px%3Bline%2Dheight%3A1%2E6%7Dbody%3E%2A%3Afirst%2Dchild%7Bmargin%2Dtop%3A0%21important%7Dbody%3E%2A%3Alast%2Dchild%7Bmargin%2Dbottom%3A0%21important%7D%40media%20screen%7Bbody%7Bbox%2Dshadow%3A0%200%200%201px%20%23cacaca%2C0%200%200%204px%20%23eee%7D%7Dh1%2Ch2%2Ch3%2Ch4%2Ch5%2Ch6%7Bmargin%3A20px%200%2010px%3Bpadding%3A0%3Bfont%2Dweight%3Abold%3B%2Dwebkit%2Dfont%2Dsmoothing%3Asubpixel%2Dantialiased%3Bcursor%3Atext%7Dh1%7Bfont%2Dsize%3A28px%3Bcolor%3A%23000%7Dh2%7Bfont%2Dsize%3A24px%3Bborder%2Dbottom%3A1px%20solid%20%23ccc%3Bcolor%3A%23000%7Dh3%7Bfont%2Dsize%3A18px%3Bcolor%3A%23333%7Dh4%7Bfont%2Dsize%3A16px%3Bcolor%3A%23333%7Dh5%7Bfont%2Dsize%3A14px%3Bcolor%3A%23333%7Dh6%7Bcolor%3A%23777%3Bfont%2Dsize%3A14px%7Dp%2Cblockquote%2Ctable%2Cpre%7Bmargin%3A15px%200%7Dul%7Bpadding%2Dleft%3A30px%7Dol%7Bpadding%2Dleft%3A30px%7Dol%20li%20ul%3Afirst%2Dof%2Dtype%7Bmargin%2Dtop%3A0%7Dhr%7Bbackground%3Atransparent%20url%28data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw%2FeHBhY2tldCBiZWdpbj0i77u%2FIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI%2FPqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC%29%20repeat%2Dx%200%200%3Bborder%3A0%20none%3Bcolor%3A%23ccc%3Bheight%3A4px%3Bpadding%3A0%7Dbody%3Eh2%3Afirst%2Dchild%7Bmargin%2Dtop%3A0%3Bpadding%2Dtop%3A0%7Dbody%3Eh1%3Afirst%2Dchild%7Bmargin%2Dtop%3A0%3Bpadding%2Dtop%3A0%7Dbody%3Eh1%3Afirst%2Dchild%2Bh2%7Bmargin%2Dtop%3A0%3Bpadding%2Dtop%3A0%7Dbody%3Eh3%3Afirst%2Dchild%2Cbody%3Eh4%3Afirst%2Dchild%2Cbody%3Eh5%3Afirst%2Dchild%2Cbody%3Eh6%3Afirst%2Dchild%7Bmargin%2Dtop%3A0%3Bpadding%2Dtop%3A0%7Da%3Afirst%2Dchild%20h1%2Ca%3Afirst%2Dchild%20h2%2Ca%3Afirst%2Dchild%20h3%2Ca%3Afirst%2Dchild%20h4%2Ca%3Afirst%2Dchild%20h5%2Ca%3Afirst%2Dchild%20h6%7Bmargin%2Dtop%3A0%3Bpadding%2Dtop%3A0%7Dh1%2Bp%2Ch2%2Bp%2Ch3%2Bp%2Ch4%2Bp%2Ch5%2Bp%2Ch6%2Bp%2Cul%20li%3E%3Afirst%2Dchild%2Col%20li%3E%3Afirst%2Dchild%7Bmargin%2Dtop%3A0%7Ddl%7Bpadding%3A0%7Ddl%20dt%7Bfont%2Dsize%3A14px%3Bfont%2Dweight%3Abold%3Bfont%2Dstyle%3Aitalic%3Bpadding%3A0%3Bmargin%3A15px%200%205px%7Ddl%20dt%3Afirst%2Dchild%7Bpadding%3A0%7Ddl%20dt%3E%3Afirst%2Dchild%7Bmargin%2Dtop%3A0%7Ddl%20dt%3E%3Alast%2Dchild%7Bmargin%2Dbottom%3A0%7Ddl%20dd%7Bmargin%3A0%200%2015px%3Bpadding%3A0%2015px%7Ddl%20dd%3E%3Afirst%2Dchild%7Bmargin%2Dtop%3A0%7Ddl%20dd%3E%3Alast%2Dchild%7Bmargin%2Dbottom%3A0%7Dblockquote%7Bborder%2Dleft%3A4px%20solid%20%23DDD%3Bpadding%3A0%2015px%3Bcolor%3A%23777%7Dblockquote%3E%3Afirst%2Dchild%7Bmargin%2Dtop%3A0%7Dblockquote%3E%3Alast%2Dchild%7Bmargin%2Dbottom%3A0%7Dtable%7Bborder%2Dcollapse%3Acollapse%3Bborder%2Dspacing%3A0%3Bfont%2Dsize%3A100%25%3Bfont%3Ainherit%7Dtable%20th%7Bfont%2Dweight%3Abold%3Bborder%3A1px%20solid%20%23ccc%3Bpadding%3A6px%2013px%7Dtable%20td%7Bborder%3A1px%20solid%20%23ccc%3Bpadding%3A6px%2013px%7Dtable%20tr%7Bborder%2Dtop%3A1px%20solid%20%23ccc%3Bbackground%2Dcolor%3A%23fff%7Dtable%20tr%3Anth%2Dchild%282n%29%7Bbackground%2Dcolor%3A%23f8f8f8%7Dimg%7Bmax%2Dwidth%3A100%25%7Dcode%2Ctt%7Bmargin%3A0%202px%3Bpadding%3A0%205px%3Bwhite%2Dspace%3Anowrap%3Bborder%3A1px%20solid%20%23eaeaea%3Bbackground%2Dcolor%3A%23f8f8f8%3Bborder%2Dradius%3A3px%3Bfont%2Dfamily%3AConsolas%2C%27Liberation%20Mono%27%2CCourier%2Cmonospace%3Bfont%2Dsize%3A12px%3Bcolor%3A%23333%7Dpre%3Ecode%7Bmargin%3A0%3Bpadding%3A0%3Bwhite%2Dspace%3Apre%3Bborder%3A0%3Bbackground%3Atransparent%7D%2Ehighlight%20pre%7Bbackground%2Dcolor%3A%23f8f8f8%3Bborder%3A1px%20solid%20%23ccc%3Bfont%2Dsize%3A13px%3Bline%2Dheight%3A19px%3Boverflow%3Aauto%3Bpadding%3A6px%2010px%3Bborder%2Dradius%3A3px%7Dpre%7Bbackground%2Dcolor%3A%23f8f8f8%3Bborder%3A1px%20solid%20%23ccc%3Bfont%2Dsize%3A13px%3Bline%2Dheight%3A19px%3Boverflow%3Aauto%3Bpadding%3A6px%2010px%3Bborder%2Dradius%3A3px%7Dpre%20code%2Cpre%20tt%7Bbackground%2Dcolor%3Atransparent%3Bborder%3A0%7D%2Epoetry%20pre%7Bfont%2Dfamily%3AGeorgia%2CGaramond%2Cserif%21important%3Bfont%2Dstyle%3Aitalic%3Bfont%2Dsize%3A110%25%21important%3Bline%2Dheight%3A1%2E6em%3Bdisplay%3Ablock%3Bmargin%2Dleft%3A1em%7D%2Epoetry%20pre%20code%7Bfont%2Dfamily%3AGeorgia%2CGaramond%2Cserif%21important%3Bword%2Dbreak%3Abreak%2Dall%3Bword%2Dbreak%3Abreak%2Dword%3B%2Dwebkit%2Dhyphens%3Aauto%3B%2Dmoz%2Dhyphens%3Aauto%3Bhyphens%3Aauto%3Bwhite%2Dspace%3Apre%2Dwrap%7Dsup%2Csub%2Ca%2Efootnote%7Bfont%2Dsize%3A1%2E4ex%3Bheight%3A0%3Bline%2Dheight%3A1%3Bvertical%2Dalign%3Asuper%3Bposition%3Arelative%7Dsub%7Bvertical%2Dalign%3Asub%3Btop%3A%2D1px%7D%40media%20print%7Bbody%7Bbackground%3A%23fff%7Dimg%2Cpre%2Cblockquote%2Ctable%2Cfigure%7Bpage%2Dbreak%2Dinside%3Aavoid%7Dbody%7Bbackground%3A%23fff%3Bborder%3A0%7Dcode%7Bbackground%2Dcolor%3A%23fff%3Bcolor%3A%23333%21important%3Bpadding%3A0%20%2E2em%3Bborder%3A1px%20solid%20%23dedede%7Dpre%7Bbackground%3A%23fff%7Dpre%20code%7Bbackground%2Dcolor%3Awhite%21important%3Boverflow%3Avisible%7D%7D%40media%20screen%7Bbody%2Einverted%7Bcolor%3A%23eee%21important%3Bborder%2Dcolor%3A%23555%3Bbox%2Dshadow%3Anone%7D%2Einverted%20body%2C%2Einverted%20hr%20%2Einverted%20p%2C%2Einverted%20td%2C%2Einverted%20li%2C%2Einverted%20h1%2C%2Einverted%20h2%2C%2Einverted%20h3%2C%2Einverted%20h4%2C%2Einverted%20h5%2C%2Einverted%20h6%2C%2Einverted%20th%2C%2Einverted%20%2Emath%2C%2Einverted%20caption%2C%2Einverted%20dd%2C%2Einverted%20dt%2C%2Einverted%20blockquote%7Bcolor%3A%23eee%21important%3Bborder%2Dcolor%3A%23555%3Bbox%2Dshadow%3Anone%7D%2Einverted%20td%2C%2Einverted%20th%7Bbackground%3A%23333%7D%2Einverted%20h2%7Bborder%2Dcolor%3A%23555%7D%2Einverted%20hr%7Bborder%2Dcolor%3A%23777%3Bborder%2Dwidth%3A1px%21important%7D%3A%3Aselection%7Bbackground%3Argba%28157%2C193%2C200%2C0%2E5%29%7Dh1%3A%3Aselection%7Bbackground%2Dcolor%3Argba%2845%2C156%2C208%2C0%2E3%29%7Dh2%3A%3Aselection%7Bbackground%2Dcolor%3Argba%2890%2C182%2C224%2C0%2E3%29%7Dh3%3A%3Aselection%2Ch4%3A%3Aselection%2Ch5%3A%3Aselection%2Ch6%3A%3Aselection%2Cli%3A%3Aselection%2Col%3A%3Aselection%7Bbackground%2Dcolor%3Argba%28133%2C201%2C232%2C0%2E3%29%7Dcode%3A%3Aselection%7Bbackground%2Dcolor%3Argba%280%2C0%2C0%2C0%2E7%29%3Bcolor%3A%23eee%7Dcode%20span%3A%3Aselection%7Bbackground%2Dcolor%3Argba%280%2C0%2C0%2C0%2E7%29%21important%3Bcolor%3A%23eee%21important%7Da%3A%3Aselection%7Bbackground%2Dcolor%3Argba%28255%2C230%2C102%2C0%2E2%29%7D%2Einverted%20a%3A%3Aselection%7Bbackground%2Dcolor%3Argba%28255%2C230%2C102%2C0%2E6%29%7Dtd%3A%3Aselection%2Cth%3A%3Aselection%2Ccaption%3A%3Aselection%7Bbackground%2Dcolor%3Argba%28180%2C237%2C95%2C0%2E5%29%7D%2Einverted%7Bbackground%3A%230b2531%3Bbackground%3A%23252a2a%7D%2Einverted%20body%7Bbackground%3A%23252a2a%7D%2Einverted%20a%7Bcolor%3A%23acd1d5%7D%7D%2Ehighlight%20%2Ec%7Bcolor%3A%23998%3Bfont%2Dstyle%3Aitalic%7D%2Ehighlight%20%2Eerr%7Bcolor%3A%23a61717%3Bbackground%2Dcolor%3A%23e3d2d2%7D%2Ehighlight%20%2Ek%2C%2Ehighlight%20%2Eo%7Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Ecm%7Bcolor%3A%23998%3Bfont%2Dstyle%3Aitalic%7D%2Ehighlight%20%2Ecp%7Bcolor%3A%23999%3Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Ec1%7Bcolor%3A%23998%3Bfont%2Dstyle%3Aitalic%7D%2Ehighlight%20%2Ecs%7Bcolor%3A%23999%3Bfont%2Dweight%3Abold%3Bfont%2Dstyle%3Aitalic%7D%2Ehighlight%20%2Egd%7Bcolor%3A%23000%3Bbackground%2Dcolor%3A%23fdd%7D%2Ehighlight%20%2Egd%20%2Ex%7Bcolor%3A%23000%3Bbackground%2Dcolor%3A%23faa%7D%2Ehighlight%20%2Ege%7Bfont%2Dstyle%3Aitalic%7D%2Ehighlight%20%2Egr%7Bcolor%3A%23a00%7D%2Ehighlight%20%2Egh%7Bcolor%3A%23999%7D%2Ehighlight%20%2Egi%7Bcolor%3A%23000%3Bbackground%2Dcolor%3A%23dfd%7D%2Ehighlight%20%2Egi%20%2Ex%7Bcolor%3A%23000%3Bbackground%2Dcolor%3A%23afa%7D%2Ehighlight%20%2Ego%7Bcolor%3A%23888%7D%2Ehighlight%20%2Egp%7Bcolor%3A%23555%7D%2Ehighlight%20%2Egs%7Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Egu%7Bcolor%3A%23800080%3Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Egt%7Bcolor%3A%23a00%7D%2Ehighlight%20%2Ekc%2C%2Ehighlight%20%2Ekd%2C%2Ehighlight%20%2Ekn%2C%2Ehighlight%20%2Ekp%2C%2Ehighlight%20%2Ekr%7Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Ekt%7Bcolor%3A%23458%3Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Em%7Bcolor%3A%23099%7D%2Ehighlight%20%2Es%7Bcolor%3A%23d14%7D%2Ehighlight%20%2Ena%7Bcolor%3A%23008080%7D%2Ehighlight%20%2Enb%7Bcolor%3A%230086b3%7D%2Ehighlight%20%2Enc%7Bcolor%3A%23458%3Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Eno%7Bcolor%3A%23008080%7D%2Ehighlight%20%2Eni%7Bcolor%3A%23800080%7D%2Ehighlight%20%2Ene%2C%2Ehighlight%20%2Enf%7Bcolor%3A%23900%3Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Enn%7Bcolor%3A%23555%7D%2Ehighlight%20%2Ent%7Bcolor%3A%23000080%7D%2Ehighlight%20%2Env%7Bcolor%3A%23008080%7D%2Ehighlight%20%2Eow%7Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Ew%7Bcolor%3A%23bbb%7D%2Ehighlight%20%2Emf%2C%2Ehighlight%20%2Emh%2C%2Ehighlight%20%2Emi%2C%2Ehighlight%20%2Emo%7Bcolor%3A%23099%7D%2Ehighlight%20%2Esb%2C%2Ehighlight%20%2Esc%2C%2Ehighlight%20%2Esd%2C%2Ehighlight%20%2Es2%2C%2Ehighlight%20%2Ese%2C%2Ehighlight%20%2Esh%2C%2Ehighlight%20%2Esi%2C%2Ehighlight%20%2Esx%7Bcolor%3A%23d14%7D%2Ehighlight%20%2Esr%7Bcolor%3A%23009926%7D%2Ehighlight%20%2Es1%7Bcolor%3A%23d14%7D%2Ehighlight%20%2Ess%7Bcolor%3A%23990073%7D%2Ehighlight%20%2Ebp%7Bcolor%3A%23999%7D%2Ehighlight%20%2Evc%2C%2Ehighlight%20%2Evg%2C%2Ehighlight%20%2Evi%7Bcolor%3A%23008080%7D%2Ehighlight%20%2Eil%7Bcolor%3A%23099%7D%2Ehighlight%20%2Egc%7Bcolor%3A%23999%3Bbackground%2Dcolor%3A%23eaf2f5%7D%2Etype%2Dcsharp%20%2Ehighlight%20%2Ek%2C%2Etype%2Dcsharp%20%2Ehighlight%20%2Ekt%7Bcolor%3A%2300F%7D%2Etype%2Dcsharp%20%2Ehighlight%20%2Enf%7Bcolor%3A%23000%3Bfont%2Dweight%3Anormal%7D%2Etype%2Dcsharp%20%2Ehighlight%20%2Enc%7Bcolor%3A%232b91af%7D%2Etype%2Dcsharp%20%2Ehighlight%20%2Enn%7Bcolor%3A%23000%7D%2Etype%2Dcsharp%20%2Ehighlight%20%2Es%2C%2Etype%2Dcsharp%20%2Ehighlight%20%2Esc%7Bcolor%3A%23a31515%7D%0A" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Partial Alloy specification to include into the report</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#structural-alloy-specification">Structural Alloy specification</a>
+<ul>
+<li><a href="#brief-overview-of-the-specification">Brief overview of the specification</a></li>
+<li><a href="#some-important-properties-that-were-checked-using-the-specification">Some important properties that were checked using the specification</a></li>
+</ul></li>
+</ul>
+</nav>
+<h2 id="structural-alloy-specification">Structural Alloy specification</h2>
+<p>Tinyman V2 protocol is very flexible in terms of imposed restrictions on a transaction group structure. This feature leads to some advantages and disadvantages. Obvious benefits are simplicity of an integration into other protocols.</p>
+<p>Main disadvantage is complication of safety analysis, because of huge amount of possible configurations of a transaction group.</p>
+<p>To tackle this problem Alloy analyzer was used. Alloy specification language was specifically designed to perform structural analysis in various domains. Also it is worth to mention that Alloy analyzer via SAT solvers enumerates and checks all possible structures up to specified bounds. So, if, for instance, we ask Alloy analyzer to check some property for up to 16 transactions in transaction group, up to 16 accounts, up to 16 assets, up to 16 pools, etc, then we may be rather confident that property is true for all possible configurations.</p>
+<p>Specification was designed to model most important abstract qualitative structural properties of the protocol.</p>
+<p>Using the specification we were able to do several things: first one is to manually review possible transaction groups under some conditions, and the second is to check that some properties are held in all possible configurations up to specified bounds.</p>
+<h3 id="brief-overview-of-the-specification">Brief overview of the specification</h3>
+<p>Some important modelled items:</p>
+<ul>
+<li>Assets</li>
+</ul>
+<p>Assets are modelled via ordered set <code>Asset</code> with one selected element <code>Algo</code>. Algo is always constrained to be the first element.</p>
+<div class="highlight"><pre><span></span><span class="kd">sig</span><span class="w"> </span><span class="n">Asset</span><span class="o">{}</span><span class="w"></span>
+<span class="k">one</span><span class="w"> </span><span class="kd">sig</span><span class="w"> </span><span class="n">Algo</span><span class="w"> </span><span class="n">in</span><span class="w"> </span><span class="n">Asset</span><span class="w"> </span><span class="o">{}</span><span class="w"> </span><span class="o">{</span><span class="n">Algo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">oa</span><span class="o">/</span><span class="n">first</span><span class="o">}</span><span class="w"></span>
+</pre></div>
+
+<ul>
+<li>Accounts</li>
+</ul>
+<p>Base signature for accounts:</p>
+<div class="highlight"><pre><span></span><span class="kd">sig</span><span class="w"> </span><span class="n">Account</span><span class="o">{}</span><span class="w"></span>
+</pre></div>
+
+<p><code>Application</code> is some selected atom in <code>Account</code>:</p>
+<div class="highlight"><pre><span></span><span class="k">one</span><span class="w"> </span><span class="kd">sig</span><span class="w"> </span><span class="n">Application</span><span class="w"> </span><span class="n">in</span><span class="w"> </span><span class="n">Account</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+</pre></div>
+
+<p>with next relations (fields):</p>
+<ul>
+<li><code>fee_setter</code> - points to one account that corresponds to a fee setter account:</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="w">  </span><span class="n">fee_setter</span><span class="p">:</span><span class="w"> </span><span class="k">one</span><span class="w"> </span><span class="n">Account</span><span class="p">,</span><span class="w"></span>
+</pre></div>
+
+<ul>
+<li><code>fee_collector</code> - self-describing:</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="w">  </span><span class="n">fee_collector</span><span class="p">:</span><span class="w"> </span><span class="k">one</span><span class="w"> </span><span class="n">Account</span><span class="p">,</span><span class="w"></span>
+</pre></div>
+
+<ul>
+<li><code>fee-manager</code> - self-describing:</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="w">  </span><span class="n">fee_manager</span><span class="p">:</span><span class="w"> </span><span class="k">one</span><span class="w"> </span><span class="n">Account</span><span class="w"></span>
+<span class="o">}</span><span class="w"></span>
+</pre></div>
+
+<ul>
+<li>Pools</li>
+</ul>
+<p>Pools are selected set from <code>Account</code> set:</p>
+<div class="highlight"><pre><span></span><span class="kd">sig</span><span class="w"> </span><span class="n">Pool</span><span class="w"> </span><span class="n">in</span><span class="w"> </span><span class="n">Account</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+</pre></div>
+
+<p>Assets of a pool:</p>
+<div class="highlight"><pre><span></span><span class="w">  </span><span class="n">asset1</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="k">one</span><span class="w"> </span><span class="n">Asset</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="n">asset2</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="k">one</span><span class="w"> </span><span class="n">Asset</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="n">pool_token</span><span class="p">:</span><span class="w"> </span><span class="k">one</span><span class="w"> </span><span class="n">Asset</span><span class="p">,</span><span class="w"></span>
+</pre></div>
+
+<p>Pool state regarding issued tokens:</p>
+<div class="highlight"><pre><span></span><span class="w">  </span><span class="n">tokens_issued</span><span class="p">:</span><span class="w"> </span><span class="n">Transaction</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="k">one</span><span class="w"> </span><span class="n">TokensIssuedState</span><span class="p">,</span><span class="w"></span>
+</pre></div>
+
+<p>Lock state for each transaction:</p>
+<div class="highlight"><pre><span></span><span class="w">  </span><span class="n">lock</span><span class="p">:</span><span class="w"> </span><span class="n">Transaction</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="k">one</span><span class="w"> </span><span class="n">LockState</span><span class="w"></span>
+<span class="o">}</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+</pre></div>
+
+<p>State of the lock and tokens may change in some transaction in transaction group, so locks and property of issued tokens are modeled via realtions between <code>Transaction</code> and corresponding enumeration.</p>
+<ul>
+<li>Transactions</li>
+</ul>
+<p>Transaction may be one of two types: transfer and application call:</p>
+<div class="highlight"><pre><span></span><span class="kd">enum</span><span class="w"> </span><span class="n">TransactionType</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">  </span><span class="n">Transfer</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="n">AppCall</span><span class="w"></span>
+<span class="o">}</span><span class="w">  </span>
+</pre></div>
+
+<div class="highlight"><pre><span></span><span class="kd">sig</span><span class="w"> </span><span class="n">Transaction</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+</pre></div>
+
+<p>Main fields of a <code>Transaction</code>:</p>
+<div class="highlight"><pre><span></span><span class="w">  </span><span class="n">type</span><span class="p">:</span><span class="w"> </span><span class="k">one</span><span class="w"> </span><span class="n">TransactionType</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="n">sender</span><span class="p">:</span><span class="w"> </span><span class="k">one</span><span class="w"> </span><span class="n">Account</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="n">receiver</span><span class="p">:</span><span class="w"> </span><span class="k">lone</span><span class="w"> </span><span class="n">Account</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="n">asset</span><span class="p">:</span><span class="w"> </span><span class="k">lone</span><span class="w"> </span><span class="n">Asset</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="n">op</span><span class="p">:</span><span class="w"> </span><span class="k">lone</span><span class="w"> </span><span class="n">Operation</span><span class="p">,</span><span class="w"></span>
+</pre></div>
+
+<ul>
+<li>Operations</li>
+</ul>
+<p>Operations correspond 1-to-1 to application calls.</p>
+<p>Next list is the list of modelled operations:</p>
+<div class="highlight"><pre><span></span><span class="kd">enum</span><span class="w"> </span><span class="n">Operation</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">  </span><span class="o">...</span><span class="w"></span>
+<span class="c1">-- amm</span><span class="w"></span>
+<span class="w">  </span><span class="n">OpAddInitialLiquidity</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="n">OpAddLiquidity</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="n">OpRemoveLiquidity</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="n">OpSwap</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="n">OpFlashLoan</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="n">OpVerifyFlashLoan</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="n">OpFlashSwap</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="n">OpVerifyFlashSwap</span><span class="w"></span>
+<span class="o">}</span><span class="w"></span>
+</pre></div>
+
+<h3 id="some-important-properties-that-were-checked-using-the-specification">Some important properties that were checked using the specification</h3>
+<ul>
+<li><code>Verify flash swap</code> is performed always under the lock:</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="n">verify_flash_swap_always_under_lock</span><span class="p">:</span><span class="w"></span>
+<span class="k">check</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">  </span><span class="k">all</span><span class="w"> </span><span class="n">vfs</span><span class="p">:</span><span class="w"> </span><span class="n">all_transactions_for</span><span class="o">[</span><span class="n">OpVerifyFlashSwap</span><span class="o">]</span><span class="w"></span>
+<span class="w">  </span><span class="o">|</span><span class="w"> </span><span class="n">AmmParams</span><span class="o">.</span><span class="n">pool_address</span><span class="o">[</span><span class="n">vfs</span><span class="o">].</span><span class="n">lock</span><span class="o">[</span><span class="n">vfs</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Locked</span><span class="w"></span>
+<span class="o">}</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="mi">16</span><span class="w"> </span><span class="k">but</span><span class="w"> </span><span class="mi">6</span><span class="w"> </span><span class="kt">int</span><span class="w"></span>
+
+<span class="c1">--   No counterexample found. Assertion may be valid. 481047ms.</span><span class="w"></span>
+</pre></div>
+
+<ul>
+<li><code>Verify flash swap</code> is the only possible operation for a locked pool:</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="n">only_verify_flash_swap_is_possible_for_locked_pool</span><span class="p">:</span><span class="w"></span>
+<span class="k">check</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">  </span><span class="k">all</span><span class="w"> </span><span class="n">t</span><span class="p">:</span><span class="w"> </span><span class="n">amm_transactions</span><span class="w"></span>
+<span class="w">  </span><span class="o">|</span><span class="w"> </span><span class="n">AmmParams</span><span class="o">.</span><span class="n">pool_address</span><span class="o">[</span><span class="n">t</span><span class="o">].</span><span class="n">lock</span><span class="o">[</span><span class="n">t</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Locked</span><span class="w"> </span><span class="ow">implies</span><span class="w"> </span><span class="n">t</span><span class="o">.</span><span class="n">op</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">OpVerifyFlashSwap</span><span class="w"></span>
+<span class="o">}</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="mi">16</span><span class="w"> </span><span class="k">but</span><span class="w"> </span><span class="mi">6</span><span class="w"> </span><span class="kt">int</span><span class="w"></span>
+
+<span class="c1">-- No counterexample found. Assertion may be valid. 177ms.</span><span class="w"></span>
+</pre></div>
+
+<ul>
+<li><code>Flash loan</code> and <code>Verify flash loan</code> always symmetrical and each of pair refers to the same pool and user address:</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="c1">-- check flash loan configurations</span><span class="w"></span>
+
+<span class="n">flash_loan1</span><span class="p">:</span><span class="w"></span>
+<span class="k">check</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">  </span><span class="n">OpFlashLoan</span><span class="w"> </span><span class="n">not</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">Transaction</span><span class="o">.</span><span class="n">op</span><span class="w"> </span>
+<span class="w">  </span><span class="ow">implies</span><span class="w"> </span><span class="n">OpVerifyFlashLoan</span><span class="w"> </span><span class="n">not</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">Transaction</span><span class="o">.</span><span class="n">op</span><span class="w"></span>
+<span class="o">}</span><span class="w"></span>
+<span class="w">      </span><span class="k">for</span><span class="w"> </span><span class="mi">16</span><span class="w"> </span><span class="k">but</span><span class="w"> </span><span class="mi">6</span><span class="w"> </span><span class="kt">int</span><span class="w"></span>
+<span class="c1">-- No counterexample found. Assertion may be valid. 686ms.</span><span class="w"></span>
+
+<span class="n">flash_loan2</span><span class="p">:</span><span class="w"></span>
+<span class="k">check</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">  </span><span class="n">OpVerifyFlashLoan</span><span class="w"> </span><span class="n">not</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">Transaction</span><span class="o">.</span><span class="n">op</span><span class="w"></span>
+<span class="w">  </span><span class="ow">implies</span><span class="w"> </span><span class="n">OpFlashLoan</span><span class="w"> </span><span class="n">not</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">Transaction</span><span class="o">.</span><span class="n">op</span><span class="w"></span>
+<span class="o">}</span><span class="w"></span>
+<span class="w">      </span><span class="k">for</span><span class="w"> </span><span class="mi">16</span><span class="w"> </span><span class="k">but</span><span class="w"> </span><span class="mi">6</span><span class="w"> </span><span class="kt">int</span><span class="w"></span>
+<span class="c1">-- No counterexample found. Assertion may be valid. 605ms.</span><span class="w"></span>
+
+<span class="n">flash_loan3</span><span class="p">:</span><span class="w"></span>
+<span class="k">check</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">  </span><span class="k">all</span><span class="w"> </span><span class="n">fl</span><span class="p">:</span><span class="w"> </span><span class="n">all_transactions_for</span><span class="o">[</span><span class="n">OpFlashLoan</span><span class="o">]</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">    </span><span class="k">let</span><span class="w"> </span><span class="n">vfl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">FlashLoanParams</span><span class="o">.</span><span class="n">verify_txn_index</span><span class="o">[</span><span class="n">fl</span><span class="o">]</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">      </span><span class="n">MainParams</span><span class="o">.</span><span class="n">user_address</span><span class="o">[</span><span class="n">fl</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">MainParams</span><span class="o">.</span><span class="n">user_address</span><span class="o">[</span><span class="n">vfl</span><span class="o">]</span><span class="w"></span>
+<span class="w">    </span><span class="o">}</span><span class="w"></span>
+<span class="w">  </span><span class="o">}</span><span class="w"></span>
+<span class="o">}</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="mi">16</span><span class="w"> </span><span class="k">but</span><span class="w"> </span><span class="mi">6</span><span class="w"> </span><span class="kt">int</span><span class="w"></span>
+<span class="c1">-- No counterexample found. Assertion may be valid. 2665ms.</span><span class="w"></span>
+
+<span class="n">flash_loan4</span><span class="p">:</span><span class="w"></span>
+<span class="k">check</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">  </span><span class="k">all</span><span class="w"> </span><span class="n">fl</span><span class="p">:</span><span class="w"> </span><span class="n">all_transactions_for</span><span class="o">[</span><span class="n">OpFlashLoan</span><span class="o">]</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">    </span><span class="k">let</span><span class="w"> </span><span class="n">vfl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">FlashLoanParams</span><span class="o">.</span><span class="n">verify_txn_index</span><span class="o">[</span><span class="n">fl</span><span class="o">]</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">      </span><span class="n">AmmParams</span><span class="o">.</span><span class="n">pool_address</span><span class="o">[</span><span class="n">fl</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">AmmParams</span><span class="o">.</span><span class="n">pool_address</span><span class="o">[</span><span class="n">vfl</span><span class="o">]</span><span class="w"></span>
+<span class="w">    </span><span class="o">}</span><span class="w"></span>
+<span class="w">  </span><span class="o">}</span><span class="w"></span>
+<span class="o">}</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="mi">16</span><span class="w"> </span><span class="k">but</span><span class="w"> </span><span class="mi">6</span><span class="w"> </span><span class="kt">int</span><span class="w"></span>
+<span class="c1">-- No counterexample found. Assertion may be valid. 2232ms.</span><span class="w"></span>
+</pre></div>
+
+<ul>
+<li><code>Flash swap</code> and <code>Verify flash swap</code> always referto the same pool and user address:</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="c1">-- check flash loan configurations</span><span class="w"></span>
+<span class="n">flash_swap1</span><span class="p">:</span><span class="w"></span>
+<span class="k">check</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">  </span><span class="k">all</span><span class="w"> </span><span class="n">fs</span><span class="p">:</span><span class="w"> </span><span class="n">all_transactions_for</span><span class="o">[</span><span class="n">OpFlashSwap</span><span class="o">]</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">    </span><span class="k">let</span><span class="w"> </span><span class="n">vfs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">FlashSwapParams</span><span class="o">.</span><span class="n">verify_txn_index</span><span class="o">[</span><span class="n">fs</span><span class="o">]</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">      </span><span class="n">MainParams</span><span class="o">.</span><span class="n">user_address</span><span class="o">[</span><span class="n">fs</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">MainParams</span><span class="o">.</span><span class="n">user_address</span><span class="o">[</span><span class="n">vfs</span><span class="o">]</span><span class="w"></span>
+<span class="w">    </span><span class="o">}</span><span class="w"></span>
+<span class="w">  </span><span class="o">}</span><span class="w"></span>
+<span class="o">}</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="mi">16</span><span class="w"> </span><span class="k">but</span><span class="w"> </span><span class="mi">6</span><span class="w"> </span><span class="kt">int</span><span class="w"></span>
+<span class="c1">-- No counterexample found. Assertion may be valid. 4546ms.</span><span class="w"></span>
+
+<span class="n">flash_swap2</span><span class="p">:</span><span class="w"></span>
+<span class="k">check</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">  </span><span class="k">all</span><span class="w"> </span><span class="n">fs</span><span class="p">:</span><span class="w"> </span><span class="n">all_transactions_for</span><span class="o">[</span><span class="n">OpFlashSwap</span><span class="o">]</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">    </span><span class="k">let</span><span class="w"> </span><span class="n">vfs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">FlashSwapParams</span><span class="o">.</span><span class="n">verify_txn_index</span><span class="o">[</span><span class="n">fs</span><span class="o">]</span><span class="w"> </span><span class="o">{</span><span class="w"></span>
+<span class="w">      </span><span class="n">AmmParams</span><span class="o">.</span><span class="n">pool_address</span><span class="o">[</span><span class="n">fs</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">AmmParams</span><span class="o">.</span><span class="n">pool_address</span><span class="o">[</span><span class="n">vfs</span><span class="o">]</span><span class="w"></span>
+<span class="w">    </span><span class="o">}</span><span class="w"></span>
+<span class="w">  </span><span class="o">}</span><span class="w"></span>
+<span class="o">}</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="mi">16</span><span class="w"> </span><span class="k">but</span><span class="w"> </span><span class="mi">6</span><span class="w"> </span><span class="kt">int</span><span class="w"></span>
+<span class="c1">-- No counterexample found. Assertion may be valid. 3849ms.</span><span class="w"></span>
+</pre></div>
+</body>
+</html>

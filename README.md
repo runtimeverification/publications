@@ -19,6 +19,7 @@
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
+| Tinyman AMM v2 | [PDF](reports/smart-contracts/Tinyman-amm-v2-audit/tinyman-amm-v2-audit-report.pdf) | [here](reports/smart-contracts/Tinyman-amm-v2-audit/) | 2022 |
 | HydraDX Omnipool | [PDF](reports/smart-contracts/HydraDX-Omnipool-AMM-Audit-Report.pdf) | | 2022 |
 | xBacked | [PDF](reports/smart-contracts/xBacked-audit-report.pdf) | | 2022 |
 | Jpg.Store | [PDF](reports/smart-contracts/Jpg.Store-audit-report.pdf) | | 2022 |

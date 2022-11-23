@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<alloy>
+
+<view>
+
+<defaultnode showinattr="yes"/>
+
+<defaultedge/>
+
+<node>
+   <type name="AppCall"/>
+   <type name="fixedInput"/>
+   <type name="fixedOutput"/>
+   <type name="Flexible"/>
+   <type name="Int"/>
+   <type name="Issued"/>
+   <type name="Locked"/>
+   <type name="NotIssued"/>
+   <type name="OpAddInitialLiquidity"/>
+   <type name="OpAddLiquidity"/>
+   <type name="OpClaimExtra"/>
+   <type name="OpClaimFees"/>
+   <type name="OpFlashLoan"/>
+   <type name="OpFlashSwap"/>
+   <type name="OpRemoveLiquidity"/>
+   <type name="OpSetFee"/>
+   <type name="OpSetFeeCollector"/>
+   <type name="OpSetFeeManager"/>
+   <type name="OpSetFeeSetter"/>
+   <type name="OpSwap"/>
+   <type name="OpVerifyFlashLoan"/>
+   <type name="OpVerifyFlashSwap"/>
+   <type name="Single"/>
+   <type name="TokensIssuedState"/>
+   <type name="Transfer"/>
+   <type name="univ"/>
+   <type name="Unlocked"/>
+   <type name="asserts/assert1005"/>
+   <type name="asserts/assert1016"/>
+   <type name="asserts/assert1034"/>
+   <type name="asserts/assert1075"/>
+   <type name="asserts/assert1084"/>
+   <type name="asserts/assert203"/>
+   <type name="asserts/assert214"/>
+   <type name="asserts/assert225"/>
+   <type name="asserts/assert244"/>
+   <type name="asserts/assert288"/>
+   <type name="asserts/assert296"/>
+   <type name="asserts/assert301"/>
+   <type name="asserts/assert302"/>
+   <type name="asserts/assert303"/>
+   <type name="asserts/assert304"/>
+   <type name="asserts/assert323"/>
+   <type name="asserts/assert351"/>
+   <type name="asserts/assert355"/>
+   <type name="asserts/assert361"/>
+   <type name="asserts/assert362"/>
+   <type name="asserts/assert389"/>
+   <type name="asserts/assert390"/>
+   <type name="asserts/assert391"/>
+   <type name="asserts/assert398"/>
+   <type name="asserts/assert399"/>
+   <type name="asserts/assert400"/>
+   <type name="asserts/assert460"/>
+   <type name="asserts/assert462"/>
+   <type name="asserts/assert463"/>
+   <type name="asserts/assert466"/>
+   <type name="asserts/assert467"/>
+   <type name="asserts/assert468"/>
+   <type name="asserts/assert469"/>
+   <type name="asserts/assert471"/>
+   <type name="asserts/assert473"/>
+   <type name="asserts/assert474"/>
+   <type name="asserts/assert477"/>
+   <type name="asserts/assert481"/>
+   <type name="asserts/assert499"/>
+   <type name="asserts/assert500"/>
+   <type name="asserts/assert501"/>
+   <type name="asserts/assert502"/>
+   <type name="asserts/assert504"/>
+   <type name="asserts/assert506"/>
+   <type name="asserts/assert507"/>
+   <type name="asserts/assert518"/>
+   <type name="asserts/assert528"/>
+   <type name="asserts/assert529"/>
+   <type name="asserts/assert530"/>
+   <type name="asserts/assert531"/>
+   <type name="asserts/assert532"/>
+   <type name="asserts/assert555"/>
+   <type name="asserts/assert56"/>
+   <type name="asserts/assert562"/>
+   <type name="asserts/assert563"/>
+   <type name="asserts/assert564"/>
+   <type name="asserts/assert565"/>
+   <type name="asserts/assert568"/>
+   <type name="asserts/assert569"/>
+   <type name="asserts/assert570"/>
+   <type name="asserts/assert571"/>
+   <type name="asserts/assert572"/>
+   <type name="asserts/assert59"/>
+   <type name="asserts/assert606"/>
+   <type name="asserts/assert608"/>
+   <type name="asserts/assert609"/>
+   <type name="asserts/assert610"/>
+   <type name="asserts/assert611"/>
+   <type name="asserts/assert613"/>
+   <type name="asserts/assert615"/>
+   <type name="asserts/assert616"/>
+   <type name="asserts/assert619"/>
+   <type name="asserts/assert622"/>
+   <type name="asserts/assert626"/>
+   <type name="asserts/assert63"/>
+   <type name="asserts/assert646"/>
+   <type name="asserts/assert647"/>
+   <type name="asserts/assert648"/>
+   <type name="asserts/assert649"/>
+   <type name="asserts/assert651"/>
+   <type name="asserts/assert653"/>
+   <type name="asserts/assert687"/>
+   <type name="asserts/assert72"/>
+   <type name="asserts/assert727"/>
+   <type name="asserts/assert75"/>
+   <type name="asserts/assert764"/>
+   <type name="asserts/assert765"/>
+   <type name="asserts/assert766"/>
+   <type name="asserts/assert767"/>
+   <type name="asserts/assert773"/>
+   <type name="asserts/assert774"/>
+   <type name="asserts/assert777"/>
+   <type name="asserts/assert778"/>
+   <type name="asserts/assert779"/>
+   <type name="asserts/assert782"/>
+   <type name="asserts/assert81"/>
+   <type name="asserts/assert84"/>
+   <type name="asserts/assert871"/>
+   <type name="asserts/assert874"/>
+   <type name="asserts/assert909"/>
+   <type name="asserts/assert914"/>
+   <type name="asserts/assert915"/>
+   <type name="asserts/assert916"/>
+   <type name="asserts/assert917"/>
+   <type name="asserts/assert919"/>
+   <type name="asserts/assert922"/>
+   <type name="asserts/assert923"/>
+   <type name="asserts/assert926"/>
+   <type name="asserts/assert927"/>
+   <type name="asserts/assert928"/>
+   <type name="asserts/assert93"/>
+   <type name="asserts/assert931"/>
+   <type name="asserts/assert932"/>
+   <type name="asserts/assert936"/>
+   <type name="asserts/assert965"/>
+   <type name="asserts/assert966"/>
+   <type name="asserts/assert967"/>
+   <type name="asserts/assert968"/>
+   <type name="asserts/assert970"/>
+   <type name="asserts/assert984"/>
+   <type name="asserts/assert996"/>
+   <type name="asserts/assert997"/>
+   <type name="asserts/assert998"/>
+   <type name="asserts/assert999"/>
+   <type name="oa/Ord"/>
+   <type name="oc/Ord"/>
+   <type name="open$10/Ord"/>
+   <type name="open$11/Ord"/>
+   <type name="open$7/Ord"/>
+   <type name="open$8/Ord"/>
+   <type name="open$9/Ord"/>
+   <type name="ordering/Ord"/>
+   <type name="ot/Ord"/>
+   <type name="seq/Int"/>
+   <type name="asserts/ordering/Ord"/>
+   <set name="this/Algo" type="Asset"/>
+</node>
+
+<node color="Blue" label="App">
+   <set name="this/Application" type="Account"/>
+</node>
+
+<node color="Gray" label="Tr">
+   <type name="Transaction"/>
+</node>
+
+<node color="Green" label="Acc">
+   <type name="Account"/>
+</node>
+
+<node color="Yellow" label="Pool">
+   <set name="this/Pool" type="Account"/>
+</node>
+
+<node visible="no">
+   <type name="AddInitialLiquidityParams"/>
+   <type name="AddLiquidityMode"/>
+   <type name="AddLiquidityParams"/>
+   <type name="AmmParams"/>
+   <type name="FlashLoanParams"/>
+   <type name="FlashSwapParams"/>
+   <type name="MainParams"/>
+   <type name="Operation"/>
+   <type name="RemoveLiquidityParams"/>
+   <type name="String"/>
+   <type name="SwapMode"/>
+   <type name="SwapParams"/>
+   <type name="TransactionType"/>
+   <type name="VerifyFlashLoanParams"/>
+   <type name="VerifyFlashSwapParams"/>
+</node>
+
+<node visible="no" color="White">
+   <type name="Checks"/>
+</node>
+
+<node visible="no" hideunconnected="no">
+   <type name="LockState"/>
+</node>
+
+<node visible="no" label="A">
+   <type name="Asset"/>
+</node>
+
+<node visible="no" label="Assert">
+   <type name="asserts/Assert"/>
+</node>
+
+<edge attribute="no">
+   <relation name="flash_swap_txn_index"> <type name="VerifyFlashSwapParams"/> <type name="Transaction"/> <type name="Transaction"/> </relation>
+</edge>
+
+<edge visible="no">
+   <relation name="swap_input_txn_index"> <type name="Transaction"/> <type name="Transaction"/> </relation>
+</edge>
+
+<edge visible="no" attribute="no">
+   <relation name="assert_txt"> <type name="Checks"/> <type name="String"/> </relation>
+</edge>
+
+<edge visible="no" attribute="yes">
+   <relation name="ail_asset1_txn_index"> <type name="Transaction"/> <type name="Transaction"/> </relation>
+   <relation name="ail_asset2_txn_index"> <type name="Transaction"/> <type name="Transaction"/> </relation>
+   <relation name="al_asset1_txn_index"> <type name="Transaction"/> <type name="Transaction"/> </relation>
+   <relation name="al_asset2_txn_index"> <type name="Transaction"/> <type name="Transaction"/> </relation>
+   <relation name="al_mode"> <type name="Transaction"/> <type name="AddLiquidityMode"/> </relation>
+   <relation name="amm_asset1"> <type name="Transaction"/> <type name="Asset"/> </relation>
+   <relation name="amm_asset2"> <type name="Transaction"/> <type name="Asset"/> </relation>
+   <relation name="amm_pool_address"> <type name="Transaction"/> <type name="Account"/> </relation>
+   <relation name="amm_pool_locked"> <type name="Transaction"/> <type name="LockState"/> </relation>
+   <relation name="amm_pool_token"> <type name="Transaction"/> <type name="Asset"/> </relation>
+   <relation name="amm_tokens_issued"> <type name="Transaction"/> <type name="TokensIssuedState"/> </relation>
+   <relation name="asserts"> <type name="Checks"/> <type name="asserts/Assert"/> </relation>
+   <relation name="asset"> <type name="Transaction"/> <type name="Asset"/> </relation>
+   <relation name="asset1"> <type name="Account"/> <type name="Asset"/> </relation>
+   <relation name="asset2"> <type name="Account"/> <type name="Asset"/> </relation>
+   <relation name="fee_collector"> <type name="Account"/> <type name="Account"/> </relation>
+   <relation name="fee_manager"> <type name="Account"/> <type name="Account"/> </relation>
+   <relation name="fee_setter"> <type name="Account"/> <type name="Account"/> </relation>
+   <relation name="fl_borrowed_assets"> <type name="Transaction"/> <type name="Asset"/> </relation>
+   <relation name="fl_verify_txn_index"> <type name="Transaction"/> <type name="Transaction"/> </relation>
+   <relation name="fs_verify_txn_index"> <type name="Transaction"/> <type name="Transaction"/> </relation>
+   <relation name="lock"> <type name="Account"/> <type name="Transaction"/> <type name="LockState"/> </relation>
+   <relation name="main_user_address"> <type name="Transaction"/> <type name="Account"/> </relation>
+   <relation name="op"> <type name="Transaction"/> <type name="Operation"/> </relation>
+   <relation name="receiver"> <type name="Transaction"/> <type name="Account"/> </relation>
+   <relation name="sender"> <type name="Transaction"/> <type name="Account"/> </relation>
+   <relation name="tokens_issued"> <type name="Account"/> <type name="Transaction"/> <type name="TokensIssuedState"/> </relation>
+   <relation name="type"> <type name="Transaction"/> <type name="TransactionType"/> </relation>
+   <relation name="vfl_asset1_txn_index"> <type name="Transaction"/> <type name="Transaction"/> </relation>
+   <relation name="vfl_asset2_txn_index"> <type name="Transaction"/> <type name="Transaction"/> </relation>
+   <relation name="vfl_flash_loan_txn_index"> <type name="Transaction"/> <type name="Transaction"/> </relation>
+   <relation name="vfs_flash_swap_txn_index"> <type name="Transaction"/> <type name="Transaction"/> </relation>
+</edge>
+
+</view>
+
+</alloy>
