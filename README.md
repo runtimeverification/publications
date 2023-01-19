@@ -20,6 +20,7 @@
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
 | WorldMobileGroup Ownership | [PDF](reports/smart-contracts/WorldMobileGroup.pdf) | | 2022 |
+| EUROe Stablecoin | [PDF](reports/smart-contracts/Euroe%20Stablecoin%20Audit.pdf) | | 2022 |
 | Tinyman AMM v2 | [PDF](reports/smart-contracts/Tinyman-amm-v2-audit/tinyman-amm-v2-audit-report.pdf) | [here](reports/smart-contracts/Tinyman-amm-v2-audit/) | 2022 |
 | HydraDX Omnipool | [PDF](reports/smart-contracts/HydraDX-Omnipool-AMM-Audit-Report.pdf) | | 2022 |
 | xBacked | [PDF](reports/smart-contracts/xBacked-audit-report.pdf) | | 2022 |
