@@ -31,6 +31,7 @@
 | Swaap Labs Pools | [PDF](reports/smart-contracts/swaap-audit-report.pdf) | | 2022 |
 | Quipuswap Stableswap | [PDF](reports/smart-contracts/quipuswap-stableswap.pdf) | | 2022 |
 | Hone | [PDF](reports/smart-contracts/hone-report.pdf)| | 2022 |
+| Gyroscope Protocol | [PDF](reports/smart-contracts/Gyroscope_Protocol_Audit_Report.pdf) | | 2022 |
 | EXA Finance | [PDF](reports/smart-contracts/EXA_Finance.pdf)| | 2022 |
 | Blockswap Stakehouse | [PDF](reports/smart-contracts/Blockswap_Stakehouse.pdf)| | 2022 |
 | Algofi AMM & Nanoswap| [PDF](reports/smart-contracts/Algofi-dex-nanoswap.pdf)| | 2022 |
