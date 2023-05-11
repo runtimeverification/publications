@@ -19,6 +19,7 @@
 
 | Name | Report | Blog Post | Artifact | Year |
 | ---- | ------ | --------- | -------- | ---- |
+| Ojo | [PDF](reports/smart-contracts/Ojo.pdf) | | | 2023 |
 | Gigastar Channel Revenue Distribution | [PDF](reports/smart-contracts/Gigastar_CRD.pdf) | | | 2023 |
 | Galactic Skyteller Debit Card v0 | [PDF](reports/smart-contracts/Skyteller_Debit_Card_V0.pdf) | | | 2023 |
 | Morpho | [PDF](reports/smart-contracts/Morpho-Audit-Report.pdf) | | | 2023 |
