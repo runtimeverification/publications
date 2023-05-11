@@ -19,7 +19,7 @@
 
 | Name | Report | Blog Post | Artifact | Year |
 | ---- | ------ | --------- | -------- | ---- |
-| General Galactic Skyteller v1 | [PDF](reports/smart-contracts/Galactic%20Skyteller%20V1.pdf) | | | 2023 |
+| Galactic Skyteller Debit Card v0 | [PDF](reports/smart-contracts/Skyteller_Debit_Card_V0.pdf) | | | 2023 |
 | Morpho | [PDF](reports/smart-contracts/Morpho-Audit-Report.pdf) | | | 2023 |
 | Blockswap Proof of Neutrality | [PDF](reports/smart-contracts/Blockswap-Proof-Of-Neutrality-Network/Blockswap-Proof-of-Neutrality-Report.pdf) | | [Model](reports/smart-contracts/Blockswap-Proof-Of-Neutrality-Network/PoN-Off-Chain-Model.pdf) | 2023 |
 | AshSwap | [PDF](reports/smart-contracts/AshSwap.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-ashswap-protocol)| | 2023 |
