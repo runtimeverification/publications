@@ -42,13 +42,13 @@
 | Alchemix v2 | [PDF](reports/smart-contracts/Alchemix_v2.pdf) | [Blog Post](https://runtimeverification.com/blog/alchemix-v2-audit-and-reviewed-code-fixes) | | 2022 |
 | Pact.fi    | [PDF](reports/smart-contracts/Pact_Fi.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-pact) | | 2022 |
 | Pact.fi StableSwap | [PDF](reports/smart-contracts/Pact_Fi_StableSwap.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-pact-s-stableswap-amm-smart-contract) | | 2022 |
-| SundaeSwap | [PDF](reports/smart-contracts/SundaeSwap.pdf) | | 2022 |
+| SundaeSwap | [PDF](reports/smart-contracts/SundaeSwap.pdf) | | | 2022 |
 | Tinyman (Security Review) | [PDF](reports/smart-contracts/Tinyman-security-review.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-tinyman) | | 2022 |
-| Tracer Perpetual Pools V2 | [PDF](reports/smart-contracts/Tracer-Perpetual-Pools-V2.pdf) | | 2021 | 
+| Tracer Perpetual Pools V2 | [PDF](reports/smart-contracts/Tracer-Perpetual-Pools-V2.pdf) | | | 2021 | 
 | Quipuswap TTDex | [PDF](reports/smart-contracts/Quipuswap.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-quipuswap-s-token-to-token-distributed-exchange) | [GitHub](reports/smart-contracts/Quipuswap-analysis.md) | 2021 |
 | Stakefish Ethereum Staking 2.0 | [PDF](reports/smart-contracts/stakefish-ethereum-staking-audit-report.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-stakefish-ethereum-staking-2-0) | | 2021 |
-| Algodex (phase 2) | [PDF](reports/smart-contracts/Algodex_Dec.pdf)| | 2021 |
-| Algodex (phase 1) | [PDF](reports/smart-contracts/Algodex_Jan.pdf)| | 2021 |
+| Algodex (phase 2) | [PDF](reports/smart-contracts/Algodex_Dec.pdf)| | | 2021 |
+| Algodex (phase 1) | [PDF](reports/smart-contracts/Algodex_Jan.pdf)| | | 2021 |
 | Algofi | [PDF](reports/smart-contracts/Algofi.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-algofi-lending-v2) | | 2021 |
 | Yieldly Multi-Token Staking Pool | [PDF](reports/smart-contracts/yieldly-multi-pool-audit-report.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-yieldly-s-multi-token-staking-pool) | | 2021 |
 | Element Finance Governance | [PDF](reports/smart-contracts/Element_Finance_Governance_Security_Audit_Report.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-elements-finance-governance-protocol) | | 2021 |
