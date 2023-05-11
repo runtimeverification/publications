@@ -19,6 +19,7 @@
 
 | Name | Report | Blog Post | Artifact | Year |
 | ---- | ------ | --------- | -------- | ---- |
+| Morpho | [PDF](reports/smart-contracts/Morpho-Audit-Report.pdf) | | | 2023 |
 | Blockswap Proof of Neutrality | [PDF](reports/smart-contracts/Blockswap-Proof-Of-Neutrality-Network/Blockswap-Proof-of-Neutrality-Report.pdf) | | [Model](reports/smart-contracts/Blockswap-Proof-Of-Neutrality-Network/PoN-Off-Chain-Model.pdf) | 2023 |
 | AshSwap | [PDF](reports/smart-contracts/AshSwap.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-ashswap-protocol)| | 2023 |
 | WorldMobileGroup Ownership | [PDF](reports/smart-contracts/WorldMobileGroup.pdf) | | | 2022 |
