@@ -30,6 +30,7 @@
 | WorldMobileGroup Ownership | [PDF](reports/smart-contracts/WorldMobileGroup.pdf) | | | 2022 |
 | EUROe Stablecoin | [PDF](reports/smart-contracts/Euroe%20Stablecoin%20Audit.pdf) | | | 2022 |
 | Tinyman AMM v2 | [PDF](reports/smart-contracts/Tinyman-amm-v2-audit/tinyman-amm-v2-audit-report.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-tinyman-amm-v2) | [here](reports/smart-contracts/Tinyman-amm-v2-audit/) | 2022 |
+| Hatom Protocol | [PDF](reports/smart-contracts/Hatom-audit-report.pdf) | | | 2022 |
 | HydraDX Omnipool | [PDF](reports/smart-contracts/HydraDX-Omnipool-AMM-Audit-Report.pdf) | | | 2022 |
 | xBacked | [PDF](reports/smart-contracts/xBacked-audit-report.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-xbacked) | | 2022 |
 | Jpg.Store | [PDF](reports/smart-contracts/Jpg.Store-audit-report.pdf) | | | 2022 |
