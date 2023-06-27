@@ -36,6 +36,7 @@
 | Jpg.Store | [PDF](reports/smart-contracts/Jpg.Store-audit-report.pdf) | | | 2022 |
 | Pact.fi Router | [PDF](reports/smart-contracts/Pact_Fi_Router.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-pact-s-router-smart-contract) | | 2022 |
 | Blockswap Stakehouse, 2nd audit | [PDF](reports/smart-contracts/Blockswap_Stakehouse_2nd_Audit.pdf)| [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-blockswap-s-stakehouse-code-changes) | | 2022 |
+| Blockswap Gateway | [PDF](reports/smart-contracts/Blockswap_Gateway.pdf)| | | 2022 |
 | Swaap Labs Pools | [PDF](reports/smart-contracts/swaap-audit-report.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-swaap-s-pool-smart-contracts) | | 2022 |
 | Quipuswap Stableswap | [PDF](reports/smart-contracts/quipuswap-stableswap.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-quipuswap-stableswap-dex-factory-mode) | | 2022 |
 | Hone | [PDF](reports/smart-contracts/hone-report.pdf)| [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-hone-s-liquid-staking-protocol) | | 2022 |
