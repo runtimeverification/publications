@@ -77,6 +77,12 @@
 | Bihu | [PDF](reports/smart-contracts/Bihu.pdf) | | [GitHub](https://github.com/runtimeverification/verified-smart-contracts/tree/master/bihu) | 2018 |
 | ERC20 Tokens | | | [Github](https://github.com/runtimeverification/verified-smart-contracts/tree/master/erc20) | 2017-2018 |
 
+### ZKVM Design Security Audits
+
+| Name | Report | Blog Post | Artifact | Year |
+| ---- | ------ | --------- | -------- | ---- |
+| Zorp zkVM design review| [PDF](https://github.com/runtimeverification/publications/blob/main/reports/zkvm/Zorp%20zkvm%20audit%20report.pdf) | | | 2023 |
+
 ## Formal Models and Language Semantics
 
 ### Virtual Machines
