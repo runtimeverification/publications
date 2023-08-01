@@ -19,6 +19,7 @@
 
 | Name | Report | Blog Post | Artifact | Year |
 | ---- | ------ | --------- | -------- | ---- |
+| Hatom Liquid Staking | [PDF](reports/smart-contracts/Hatom-Liquid-Staking.pdf) | | | 2023 |
 | HydraDX Withdrawal Fee | [PDF](reports/smart-contracts/HydraDX-Omnipool-Withdrawal-Fee.pdf) | | | 2023 |
 | Galactic Skyteller v1 | [PDF](reports/smart-contracts/Galactic_Skyteller_V1.pdf) | | | 2023 |
 | Ojo | [PDF](reports/smart-contracts/Ojo.pdf) | | | 2023 |
