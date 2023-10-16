@@ -19,6 +19,8 @@
 
 | Name | Report | Blog Post | Artifact | Year |
 | ---- | ------ | --------- | -------- | ---- |
+| Zivoe Locker Contracts | [PDF](reports/Zivoe_Locker_Contracts.pdf) | | | 2023 |
+| Zivoe Core Contracts | [PDF](reports/Zivoe_Core_Contracts.pdf) | | | 2023 |
 | Hatom Liquid Staking | [PDF](reports/smart-contracts/Hatom-Liquid-Staking.pdf) | | | 2023 |
 | Blockswap Stakehouse Withdrawals | [PDF](reports/smart-contracts/Blockswap_Stakehouse_Withdrawals_Audit_Report.pdf) | | | 2023 |
 | HydraDX Withdrawal Fee | [PDF](reports/smart-contracts/HydraDX-Omnipool-Withdrawal-Fee.pdf) | | | 2023 |
