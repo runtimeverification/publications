@@ -14,6 +14,7 @@
 | Ethereum Beacon Chain Phase 0 | [PDF](reports/consensus-protocols/Ethereum-BeaconChain.pdf) | [GitHub](https://github.com/runtimeverification/beacon-chain-spec) | 2019 |
 | Ethereum Casper FFG | [PDF](reports/consensus-protocols/Ethereum-Casper.pdf) | [GitHub](https://github.com/runtimeverification/casper-proofs) | 2018 |
 | Elrond ESDT | [PDF](reports/consensus-protocols/Elrond-ESDT.pdf)| | 2022 |
+| MultiversX Async Calls V2 | [PDF](reports/consensus-protocols/MultiversX-Async-Calls-V2.pdf)| [GitHub](https://github.com/runtimeverification/multiversx-protocol-audit/tree/master/async_call) | 2023 |
 
 ### Smart Contracts Security Audit and Formal Verification
 
