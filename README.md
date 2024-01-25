@@ -20,6 +20,7 @@
 
 | Name | Report | Blog Post | Artifact | Year |
 | ---- | ------ | --------- | -------- | ---- |
+| Synonym | [PDF](reports/smart-contracts/Synonym-audit-report.pdf) | | | 2023 |
 | Zivoe Locker Contracts | [PDF](reports/smart-contracts/Zivoe_Locker_Contracts.pdf) | | | 2023 |
 | Zivoe Core Contracts | [PDF](reports/smart-contracts/Zivoe_Core_Contracts.pdf) | | | 2023 |
 | Hatom Liquid Staking | [PDF](reports/smart-contracts/Hatom-Liquid-Staking.pdf) | | | 2023 |
