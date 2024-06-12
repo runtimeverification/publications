@@ -20,6 +20,7 @@
 
 | Name | Report | Blog Post | Artifact | Year |
 | ---- | ------ | --------- | -------- | ---- |
+| FxDAO | [PDF](reports/smart-contracts/FxDAO.pdf) |  |  | 2024 |
 | Band Standard Reference Contract | [PDF](reports/smart-contracts/Band_Protocol_Soroban-Band_Standard_Reference_Contract.pdf) |  |  | 2023 |
 | Synonym | [PDF](reports/smart-contracts/Synonym-audit-report.pdf) | | | 2023 |
 | Zivoe Locker Contracts | [PDF](reports/smart-contracts/Zivoe_Locker_Contracts.pdf) | | | 2023 |
