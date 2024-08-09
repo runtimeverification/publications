@@ -36,6 +36,7 @@
 | Morpho | [PDF](reports/smart-contracts/Morpho-Audit-Report.pdf) | | | 2023 |
 | Proof of Neutrality Network | [PDF](reports/smart-contracts/Proof-Of-Neutrality-Network/Proof-of-Neutrality-Network-Report.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-the-proof-of-neutrality-network) | [Model](reports/smart-contracts/Proof-Of-Neutrality-Network/PoN-Off-Chain-Model.pdf) | 2023 |
 | AshSwap | [PDF](reports/smart-contracts/AshSwap.pdf) | [Blog Post](https://runtimeverification.com/blog/runtime-verification-audits-ashswap-protocol)| | 2023 |
+| Optimism | [PDF](reports/smart-contracts/Optimism-Formal-Verification-Report.pdf) | | | 2022 |
 | EigenLayer Design Review | [PDF](reports/smart-contracts/EigenLayer_Design_Review.pdf) | | | 2022 |
 | WorldMobileGroup Ownership | [PDF](reports/smart-contracts/WorldMobileGroup.pdf) | | | 2022 |
 | EUROe Stablecoin | [PDF](reports/smart-contracts/Euroe%20Stablecoin%20Audit.pdf) | | | 2022 |
