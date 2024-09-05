@@ -20,7 +20,7 @@
 
 | Name | Report | Blog Post | Artifact | Year |
 | ---- | ------ | --------- | -------- | ---- |
-| Soroswap Aggregator | [Report](reports/smart-contracts/Soroswap_Aggregator.pdf) [Audit Summary](reports/smart-contracts/Soroswap_Aggregator_-_Audit Summary.pdf) |  |  | 2024 |
+| Soroswap Aggregator | [Report](reports/smart-contracts/Soroswap_Aggregator.pdf) [Audit Summary](reports/smart-contracts/Soroswap_Aggregator_-_Audit_Summary.pdf) |  |  | 2024 |
 | Lido (Dual Governance) | [PDF](reports/smart-contracts/Lido_Dual_Governance_Design_Review.pdf) |  |  | 2024 |
 | Optimism | | [Blog Post](https://runtimeverification.com/blog/kontrol-integrated-verification-of-the-optimism-pausability-mechanism) | [Proofs](https://github.com/ethereum-optimism/optimism/tree/876e16ad04968f0bb641eb76f98eb77e7e1a3e16/packages/contracts-bedrock/test/kontrol) | 2024 |
 | FxDAO | [PDF](reports/smart-contracts/FxDAO.pdf) |  |  | 2024 |
