@@ -16,7 +16,7 @@
 | Elrond ESDT | [PDF](reports/consensus-protocols/Elrond-ESDT.pdf)| | 2022 |
 | MultiversX Async Calls V2 | [PDF](reports/consensus-protocols/MultiversX-Async-Calls-V2.pdf)| [GitHub](https://github.com/runtimeverification/multiversx-protocol-audit/tree/master/async_call) | 2023 |
 
-### Consensus Protocols Formal Verification
+### Infrastructure Security Audit and Formal Verification
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
