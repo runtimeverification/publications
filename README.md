@@ -27,6 +27,7 @@
 | Name | Report | Blog Post | Artifact | Year |
 | ---- | ------ | --------- | -------- | ---- |
 | FxHash | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/FxHash%20Token%20Security%20Audit.pdf) |  |  | 2025 |
+| Cork Protocol | [FV Summary](reports/smart-contracts/Cork%20FV%20Summary%20Report.pdf) |  |  | 2024 |
 | TermFinance | [FV Summary](reports/smart-contracts/Term%20FV%20Summary%20Report.pdf) |  |  | 2024 |
 | Oveit | [PDF](reports/smart-contracts/TCA_Oveit_7.10.pdf) |  |  | 2024 |
 | Soroswap Aggregator | [Report](reports/smart-contracts/Soroswap_Aggregator.pdf) [Audit Summary](reports/smart-contracts/Soroswap_Aggregator_-_Audit_Summary.pdf) |  |  | 2024 |
