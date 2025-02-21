@@ -21,7 +21,7 @@
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
 | Wasmi | [Wasmi - WebAssembly (Wasm) Interpreter](reports/infrastructure/Wasmi_-_WebAssembly_(Wasm)_Interpreter.pdf) | | 2024 |
-| rs-soroban-env | [rs-soroban-env](reports/infrastructure/Stellar_Soroban_Environment_Audit.pdf) | | 2024 |
+| Rust Soroban Environment | [rs-soroban-env](reports/infrastructure/Stellar_Soroban_Environment_Audit.pdf) | | 2024 |
 
 ### Smart Contracts Security Audit and Formal Verification
 
