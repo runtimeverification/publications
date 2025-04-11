@@ -27,6 +27,7 @@
 
 | Name | Report | Blog Post | Artifact | Year |
 | ---- | ------ | --------- | -------- | ---- |
+| TokenOps | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/TokenOps.pdf) |  |  | 2025 |
 | ClickPesa Oracle Aggregator | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/ClickPesa%20Oracle%20Aggregator.pdf) |  |  | 2025 |
 | FxHash | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/FxHash%20Token%20Security%20Audit.pdf) |  |  | 2025 |
 | Cork Protocol | [FV Summary](reports/smart-contracts/Cork%20FV%20Summary%20Report.pdf) |  |  | 2024 |
