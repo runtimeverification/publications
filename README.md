@@ -127,13 +127,17 @@
 
 ## Formal Models and Language Semantics
 
-### Virtual Machines
+### Virtual Machines and Execution Environments
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
-| Elrond WASM | | [GitHub](https://github.com/runtimeverification/elrond-semantics) | 2020-Present |
-| IELE | [FM'2019](http://fsl.cs.illinois.edu/FSL/papers/2019/kasampalis-guth-moore-serbanuta-zhang-filaretti-serbanuta-johnson-rosu-2019-fm/kasampalis-guth-moore-serbanuta-zhang-filaretti-serbanuta-johnson-rosu-2019-fm-public.pdf) | [GitHub](https://github.com/runtimeverification/iele-semantics) | 2016-Present |
 | EVM | [CSF'2018](https://daejunpark.github.io/kevm.pdf) | [GitHub](https://github.com/kframework/evm-semantics) | 2016-Present |
+| WASM | | [GitHub](https://github.com/runtimeverification/wasm-semantics) | 2018-Present |
+| MIR | | [GitHub](https://github.com/runtimeverification/mir-semantics) | 2022-Present |
+| Soroban WASM | | [GitHub](https://github.com/runtimeverification/komet) | 2024-Present |
+| RISC-V | | [GitHub](https://github.com/runtimeverification/riscv-semantics) | 2024-Present |
+| Elrond WASM | | [GitHub](https://github.com/runtimeverification/elrond-semantics) | 2020-2024 |
+| IELE | [FM'2019](http://fsl.cs.illinois.edu/FSL/papers/2019/kasampalis-guth-moore-serbanuta-zhang-filaretti-serbanuta-johnson-rosu-2019-fm/kasampalis-guth-moore-serbanuta-zhang-filaretti-serbanuta-johnson-rosu-2019-fm-public.pdf) | [GitHub](https://github.com/runtimeverification/iele-semantics) | 2016-2021 |
 
 ### Smart Contract Languages
 
