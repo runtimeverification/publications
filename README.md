@@ -31,13 +31,13 @@
 | ---- | ------ | --------- | -------- | ---- |
 | Token Wrap | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Token_Wrap.pdf) |  |  | 2025 |
 | TokenOps | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/TokenOps.pdf) |  |  | 2025 |
-| Espresso Systems | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Espresso_Systems_audit_report.pdf) |  |  | 2025 |
-| EquitX | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/EquitX_audit_report.pdf) |  |  | 2025 |
-| Trustless Work | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/TrustLess_Work_audit_report.pdf) |  |  | 2025 |
-| Levery | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Levery_FV_audit_report.pdf) |  |  | 2025 |
-| StellarBroker | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/StellarBroker_report.pdf) |  |  | 2025 |
-| Zivoe Vault | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Zivoe_Vault_FV_audit_report.pdf) |  |  | 2025 |
-| Octant | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Octant_v2_report.pdf) |  |  | 2025 |
+| Espresso Systems | [Report](reports/smart-contracts/Espresso_Systems_audit_report.pdf) |  |  | 2025 |
+| EquitX | [Report](reports/smart-contracts/EquitX_audit_report.pdf) |  |  | 2025 |
+| Trustless Work | [Report](reports/smart-contracts/TrustLess_Work_audit_report.pdf) |  |  | 2025 |
+| Levery | [Report](reports/smart-contracts/Levery_FV_audit_report.pdf) |  |  | 2025 |
+| StellarBroker | [Report](reports/smart-contracts/StellarBroker_report.pdf) |  |  | 2025 |
+| Zivoe Vault | [Report](reports/smart-contracts/Zivoe_Vault_FV_audit_report.pdf) |  |  | 2025 |
+| Octant | [Report](reports/smart-contracts/Octant_v2_report.pdf) |  |  | 2025 |
 | ClickPesa Oracle Aggregator | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/ClickPesa%20Oracle%20Aggregator.pdf) |  |  | 2025 |
 | FxHash | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/FxHash%20Token%20Security%20Audit.pdf) |  |  | 2025 |
 | Cork Protocol | [FV Summary](reports/smart-contracts/Cork%20FV%20Summary%20Report.pdf) |  |  | 2024 |
@@ -123,7 +123,7 @@
 
 | Name | Report | Blog Post | Artifact | Year |
 | ---- | ------ | --------- | -------- | ---- |
-| zkEVM Formal Verification Project | [Report](reports/zkvm/zkEVM_Formal_Verification_report.pdf) | | [klean](https://github.com/runtimeverification/k/tree/master/pyk/src/pyk/klean), [EVM Equivalence](https://github.com/runtimeverification/evm-equivalence), [zkEVM Verification Harness](https://github.com/runtimeverification/zkevm-harness), [RISC-V Semantics](https://github.com/runtimeverification/riscv-semantics) | 2025 |
+| zkEVM Formal Verification | [Report](reports/zkvm/zkEVM_Formal_Verification_report.pdf) | | [klean](https://github.com/runtimeverification/k/tree/master/pyk/src/pyk/klean), [EVM Equivalence](https://github.com/runtimeverification/evm-equivalence), [zkEVM Harness](https://github.com/runtimeverification/zkevm-harness), [RISC-V Semantics](https://github.com/runtimeverification/riscv-semantics) | 2025 |
 
 ## Formal Models and Language Semantics
 
