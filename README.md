@@ -16,10 +16,12 @@
 | Elrond ESDT | [PDF](reports/consensus-protocols/Elrond-ESDT.pdf)| | 2022 |
 | MultiversX Async Calls V2 | [PDF](reports/consensus-protocols/MultiversX-Async-Calls-V2.pdf)| [GitHub](https://github.com/runtimeverification/multiversx-protocol-audit/tree/master/async_call) | 2023 |
 
-### Infrastructure Security Audit and Formal Verification
+### Infrastructure Security Audit, Fuzzing, and Formal Verification
 
 | Name | Report | Artifact | Year |
 | ---- | ------ | -------- | ---- |
+| Monad | [Monad Execution](reports/infrastructure/Monad_audit_report.pdf) | | 2025 |
+| Kora | [Kora Paymaster Service](reports/infrastructure/Kora_audit_report.pdf) | | 2025 |
 | Wasmi | [Wasmi - WebAssembly (Wasm) Interpreter](reports/infrastructure/Wasmi_-_WebAssembly_(Wasm)_Interpreter.pdf) | | 2024 |
 | Rust Soroban Environment | [rs-soroban-env](reports/infrastructure/Stellar_Soroban_Environment_Audit.pdf) | | 2024 |
 
@@ -29,10 +31,17 @@
 | ---- | ------ | --------- | -------- | ---- |
 | Token Wrap | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Token_Wrap.pdf) |  |  | 2025 |
 | TokenOps | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/TokenOps.pdf) |  |  | 2025 |
+| Espresso Systems | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Espresso_Systems_audit_report.pdf) |  |  | 2025 |
+| EquitX | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/EquitX_audit_report.pdf) |  |  | 2025 |
+| Trustless Work | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/TrustLess_Work_audit_report.pdf) |  |  | 2025 |
+| Levery | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Levery_FV_audit_report.pdf) |  |  | 2025 |
+| StellarBroker | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/StellarBroker_report.pdf) |  |  | 2025 |
+| Zivoe Vault | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Zivoe_Vault_FV_audit_report.pdf) |  |  | 2025 |
+| Octant | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Octant_v2_report.pdf) |  |  | 2025 |
 | ClickPesa Oracle Aggregator | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/ClickPesa%20Oracle%20Aggregator.pdf) |  |  | 2025 |
 | FxHash | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/FxHash%20Token%20Security%20Audit.pdf) |  |  | 2025 |
 | Cork Protocol | [FV Summary](reports/smart-contracts/Cork%20FV%20Summary%20Report.pdf) |  |  | 2024 |
-| TermFinance | [FV Summary](reports/smart-contracts/Term%20FV%20Summary%20Report.pdf) |  |  | 2024 |
+| Term Finance | [FV Summary](reports/smart-contracts/Term%20FV%20Summary%20Report.pdf) |  |  | 2024 |
 | Oveit | [PDF](reports/smart-contracts/TCA_Oveit_7.10.pdf) |  |  | 2024 |
 | Soroswap Aggregator | [Report](reports/smart-contracts/Soroswap_Aggregator.pdf) [Audit Summary](reports/smart-contracts/Soroswap_Aggregator_-_Audit_Summary.pdf) |  |  | 2024 |
 | Lido (Dual Governance) | [PDF](reports/smart-contracts/Lido_Dual_Governance_Design_Review.pdf) |  |  | 2024 |
@@ -104,11 +113,17 @@
 | Bihu | [PDF](reports/smart-contracts/Bihu.pdf) | | [GitHub](https://github.com/runtimeverification/verified-smart-contracts/tree/master/bihu) | 2018 |
 | ERC20 Tokens | | | [Github](https://github.com/runtimeverification/verified-smart-contracts/tree/master/erc20) | 2017-2018 |
 
-### ZKVM Design Security Audits
+### zkVM Design Security Audits
 
 | Name | Report | Blog Post | Artifact | Year |
 | ---- | ------ | --------- | -------- | ---- |
 | Zorp zkVM design review| [PDF](https://github.com/runtimeverification/publications/blob/main/reports/zkvm/Zorp%20zkvm%20audit%20report.pdf) | | | 2023 |
+
+### zkVM Formal Verification
+
+| Name | Report | Blog Post | Artifact | Year |
+| ---- | ------ | --------- | -------- | ---- |
+| zkEVM Formal Verification Project | [Report](reports/zkvm/zkEVM_Formal_Verification_report.pdf) | | [klean](https://github.com/runtimeverification/k/tree/master/pyk/src/pyk/klean), [EVM Equivalence](https://github.com/runtimeverification/evm-equivalence), [zkEVM Verification Harness](https://github.com/runtimeverification/zkevm-harness), [RISC-V Semantics](https://github.com/runtimeverification/riscv-semantics) | 2025 |
 
 ## Formal Models and Language Semantics
 
