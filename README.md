@@ -29,6 +29,7 @@
 
 | Name | Report | Blog Post | Artifact | Year |
 | ---- | ------ | --------- | -------- | ---- |
+| OctoLend | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/OctoLend.pdf) |  |  | 2026 |
 | Token Wrap | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Token_Wrap.pdf) |  |  | 2025 |
 | TokenOps | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/TokenOps.pdf) |  |  | 2025 |
 | Espresso Systems | [Report](reports/smart-contracts/Espresso_Systems_audit_report.pdf) |  |  | 2025 |
