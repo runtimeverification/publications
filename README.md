@@ -125,7 +125,7 @@
 | Name | Report | Blog Post | Artifact | Year |
 | ---- | ------ | --------- | -------- | ---- |
 | zkEVM Formal Verification | [Report](reports/zkvm/zkEVM_Formal_Verification_report.pdf) | | [klean](https://github.com/runtimeverification/k/tree/master/pyk/src/pyk/klean), [EVM Equivalence](https://github.com/runtimeverification/evm-equivalence), [zkEVM Harness](https://github.com/runtimeverification/zkevm-harness), [RISC-V Semantics](https://github.com/runtimeverification/riscv-semantics) | 2025 |
-| Initial Plonky3 verification with Aeneas | [Milestone 1 - Part 1](reports/zkvm/Part_1_-_Milestone_1_-_Rust_Verification_Through_Lean_4_Tooling_Investigation.pdf') [Milestone 1 - Part 2](reports/zkvm/Part_2_-_Milestone_1_-_Rust_Verification_Through_Lean_4_Tooling_Investigation.pdf) [Milestone 2](reports/zkvm/Discovery_report_for_Milestone_2_—_Implementation_and_Verification.pdf) [Milestone 3](reports/zkvm/Discovery_report_for_Milestone_3_—_Implementation_and_Verification.pdf) | | [`rust-lean` repository](https://github.com/Verified-zkEVM/rust-lean) | 2026 |
+| Initial Plonky3 verification with Aeneas | [Milestone 1 - Part 1 (Hax)](reports/zkvm/Part_1_-_Milestone_1_-_Rust_Verification_Through_Lean_4_Tooling_Investigation.pdf') [Milestone 1 - Part 2 (Hax)](reports/zkvm/Part_2_-_Milestone_1_-_Rust_Verification_Through_Lean_4_Tooling_Investigation.pdf) [Milestone 2 (Hax)](reports/zkvm/Discovery_report_for_Milestone_2_—_Implementation_and_Verification.pdf) [Milestone 3 (Aeneas)](reports/zkvm/Discovery_report_for_Milestone_3_—_Implementation_and_Verification.pdf) | | [`rust-lean` repository](https://github.com/Verified-zkEVM/rust-lean) | 2026 |
 
 ## Formal Models and Language Semantics
 
