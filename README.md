@@ -29,6 +29,7 @@
 
 | Name | Report | Blog Post | Artifact | Year |
 | ---- | ------ | --------- | -------- | ---- |
+| DeFindex_APY_Stabilizer | [Report](https://github.com/runtimeverification/reports/smart-contracts/DeFindex%20APY%20Stabilizer-Audit%20Report-Final.pdf) |  |  | 2026 |
 | Matrixdock RWA | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Matrixdock%20RWA%20Audit.pdf) |  |  | 2026 |
 | OctoLend | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/OctoLend.pdf) |  |  | 2026 |
 | Token Wrap | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Token_Wrap.pdf) |  |  | 2025 |
