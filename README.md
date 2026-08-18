@@ -29,6 +29,7 @@
 
 | Name | Report | Blog Post | Artifact | Year |
 | ---- | ------ | --------- | -------- | ---- |
+| Moonlight | [Report](reports/smart-contracts/Moonlight-report.pdf) |  |  | 2026 |
 | DeFindex APY Stabilizer | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/DeFindex%20APY%20Stabilizer-Audit%20Report-Final.pdf) |  |  | 2026 |
 | Matrixdock RWA | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Matrixdock%20RWA%20Audit.pdf) |  |  | 2026 |
 | OctoLend | [Report](https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/OctoLend.pdf) |  |  | 2026 |
